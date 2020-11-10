@@ -13,12 +13,12 @@ Owner's goals: To increase the number of direct students (direct sales) as curre
 
 5 Planes
   Strategy Plane
-    Users are non-native English speakers so keeping the website simple is essential and using more visual contents than text contents would help them to understand the information
-    It targets business-to-consumer (B2C) so all the information must be clear
+    Users are non-native English speakers so keeping the website simple is essential and using more visual contents than text contents would help them to understand the information.
+    It targets business-to-consumer (B2C) so all the information must be clear.
     
     Aim for this website is;
-     to provide users enough information about the school
-     to provide users easy access to a booking process
+     to provide users enough information about the school.
+     to provide users easy access to a booking process.
     
     Opportunity / Problem
     Course and Accommodation Details (Importance: 5 Viability / Feasibility: 5)
@@ -30,6 +30,12 @@ Owner's goals: To increase the number of direct students (direct sales) as curre
     Quotation Calculator (Importance: 4 Viability / Feasibility: 1)
 
   Scope Plane
+    Features to be included on this project are;
+      Image Gallery using carousel. 4 - 5 images of classes, 4 - 5 images of accommodation.
+      PDF Prince list linked with menu
+      Online Booking Form (Static form)
+      Text in Different Languages and Quotation Calculator. These would be useful to the users but I won't have knowledge to be able to do these so these will be future project possibly when I complete the full stack software development course. 
+
   Structure Plane
   Skeleton Plane
   Surface Plane
