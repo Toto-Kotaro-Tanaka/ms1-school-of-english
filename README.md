@@ -13,6 +13,22 @@ Owner's goals: To increase the number of direct students (direct sales) as curre
 
 5 Planes
   Strategy Plane
+    Users are non-native English speakers so keeping the website simple is essential and using more visual contents than text contents would help them to understand the information
+    It targets business-to-consumer (B2C) so all the information must be clear
+    
+    Aim for this website is;
+     to provide users enough information about the school
+     to provide users easy access to a booking process
+    
+    Opportunity / Problem
+    Course and Accommodation Details (Importance: 5 Viability / Feasibility: 5)
+    Gallery (Importance: 4 Viability / Feasibility: 4)
+    Feedback (Importance: 4 Viability / Feasibility: 4)
+    PDF Price List (Importance: 5 Viability / Feasibility: 5)
+    Online Booking Form (Importance: 5 Viability / Feasibility: 4)
+    Text in Different Languages (Importance: 3 Viability / Feasibility: 2)
+    Quotation Calculator (Importance: 4 Viability / Feasibility: 1)
+
   Scope Plane
   Structure Plane
   Skeleton Plane
