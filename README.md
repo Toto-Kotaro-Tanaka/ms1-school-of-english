@@ -50,7 +50,9 @@ Owner's goals: To increase the number of direct students (direct sales) as curre
 
 
   Skeleton Plane
-    [Wireframe ver.1](../assets/documents/wireframe-ver1.bmpr) 
+    This is the first wireframe without colour [Wireframe ver.1](../assets/documents/wireframe-ver1.bmpr) 
+
+    This is testing to see if wireframe shows in a link correctly [Wireframe home ver.1](assets/documents/wireframe-home-ver1.png)
 
   Surface Plane
 
