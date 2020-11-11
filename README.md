@@ -37,6 +37,18 @@ Owner's goals: To increase the number of direct students (direct sales) as curre
       Text in Different Languages and Quotation Calculator. These would be useful to the users but I won't have knowledge to be able to do these so these will be future project possibly when I complete the full stack software development course. 
 
   Structure Plane
+    The website consists of 4 pages (Home, Course, Accommodation, Booking). 
+    On Home page in Header section, there is navigation bar on top which includes logo (school logo and name) and menu in Header. Hero image with school's catch phrase "Go west... to learn English, make friends and have fun!" is below header. 
+    On article section, there are brief descriptions of the courses with a link to Courses page, brief descriptions of the accommodation with a link to Accommodation page and a few reviews of former students. Footer includes contact details and social media icons.
+    On Courses page, outline the details of each course with a link to price list.
+    On Accommodation page, outline the details of each course with a link to price list.
+    On Booking page, there is a booking form.
+
+    All pages are designed with same header and footer. Same layout is used for Course and Accommodation pages. Green is used for header and footer, white for body and orange for buttons and links
+
+    Everything will be laid out logically so that users can easily predict and learn about the website.
+
+
   Skeleton Plane
   Surface Plane
 
