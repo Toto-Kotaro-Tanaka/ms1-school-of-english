@@ -50,6 +50,8 @@ Owner's goals: To increase the number of direct students (direct sales) as curre
 
 
   Skeleton Plane
+    [Wireframe ver.1](../assets/documents/wireframe-ver1.bmpr) 
+
   Surface Plane
 
 Features & Technologies
