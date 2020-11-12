@@ -50,7 +50,7 @@ Owner's goals: To increase the number of direct students (direct sales) as curre
 
 
   Skeleton Plane
-    This is the first wireframe without colour [Wireframe ver.1](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/assets/documents/wireframe-home-ver1.png) 
+    [Wireframes](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframes.pdf) 
 
 
   Surface Plane
