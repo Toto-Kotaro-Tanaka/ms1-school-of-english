@@ -54,6 +54,9 @@ Owner's goals: To increase the number of direct students (direct sales) as curre
 
 
   Surface Plane
+    Colour: Dark Green (#065446) is the school colour so this colour is used for header and footer. Back ground colour is white and gold is used for buttons. The colours of Irish flag is imaged.
+    Typography: Serif type (Noto Serif) is used for headings to make the website trustful as this is for education. On the other hand, San-Serif type (Open Sans) is used for contents to make the website easy to read and give friendly atmosphere to the users.
+
 
 Features & Technologies
 
