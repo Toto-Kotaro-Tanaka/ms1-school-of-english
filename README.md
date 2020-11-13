@@ -63,21 +63,21 @@ There is a booking form.
 
 **`Header & Footer`**
 
-All pages are designed with same header and footer. There is navigation bar on the header which includes logo and menu. There are schools details and social icons on the footer.
+All pages are designed with the same header and footer. There is a navigation bar on the header which includes logo and menu. School's details and social icons are on the footer.
 Green is used for header and footer, white for body and orange for buttons.
 
 ## Skeleton Plane
 
-Mobile first design and there are wireframe for Home, Courses, Accommodation and Register for mobile, tablet and PC sizes.
+Mobile first design and there are wireframes of Home, Courses, Accommodation and Register for mobile, tablet and PC sizes.
 
 * [Wireframes](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframes.pdf) 
 
 ## Surface Plane
 
-#### Colour:
-**Dark Green (#065446)** is the school colour so this colour is used for header and footer. Back ground colour is white and gold is used for buttons. Irish flag is imaged for colour coordinations.
+#### Colour
+**Dark Green (#065446)** is the school colour so this colour is used for header and footer. Background colour is white and gold is used for buttons. Irish flag is imaged for colour coordinations.
 
-#### Typography: 
+#### Typography
 **Serif** type (Noto Serif) is used for headings to make the website trustful as this is for education. On the other hand, **San-Serif** type (Open Sans) is used for contents to make the website easy to read and give friendly atmosphere to the users.
 
 ## Features & Technologies
