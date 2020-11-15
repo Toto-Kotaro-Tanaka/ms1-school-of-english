@@ -39,7 +39,7 @@ Features to be included on this project are;
 * PDF price list linked with menu and buttons
 * Online booking form (static form)
 
-## Structure Plane
+### Structure Plane
 
 The website consists of 4 pages (Home, Course, Accommodation, Register) and everything is laid out logically so that users can easily predict and learn about the website.
 
@@ -66,13 +66,13 @@ There is a booking form.
 All pages are designed with the same header and footer. There is a navigation bar on the header which includes logo and menu. School's details and social icons are on the footer.
 Green is used for header and footer, white for body and orange for buttons.
 
-## Skeleton Plane
+### Skeleton Plane
 
 Mobile first design and there are wireframes of Home, Courses, Accommodation and Register for mobile, tablet and PC sizes.
 
 * [Wireframes](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframes.pdf) 
 
-## Surface Plane
+### Surface Plane
 
 #### Colour
 **Dark Green (#065446)** is the school colour so this colour is used for header and footer. Background colour is white and gold is used for buttons. Irish flag is imaged for colour coordinations.
@@ -80,37 +80,32 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 #### Typography
 **Serif** type (Noto Serif) is used for headings to make the website trustful as this is for education. On the other hand, **San-Serif** type (Open Sans) is used for contents to make the website easy to read and give friendly atmosphere to the users.
 
-## Features & Technologies
+## Features
+To be added as project goes on
 
-To be added as project goes
-
+## Technologies Used
+To be added as project goes on
 
 ## Resources
-
-To be added as project goes
-
+To be added as project goes on
 
 ## Testing
-
-To be added as project goes
-
+To be added as project goes on
 
 ## Project Barriers & Solutions
-
-To be added as project goes
-
+To be added as project goes on
 
 ## Version Control
-To be added as project goes
-
+To be added as project goes on
 
 ## Deployment
-To be added as project goes
-
+To be added as project goes on
 
 ## Credits
-To be added as project goes
+To be added as project goes on
 
+### Contents
 
-## Acknowledgements
-To be added as project goes
+### Media
+
+### Acknowledgements
