@@ -183,12 +183,14 @@ footer a:hover {
 }
 
 /* ---------- Second Section(courses): Home */
-#courses {
+#courses,
+#accommodation {
   background-color: #f1f1f1;
   text-align: center;
 }
 
-#courses h3 {
+#courses h3,
+#accommodation h3 {
   color: #fafafa;
   background-color: #065446;
   font-size: 1.2rem;
@@ -196,11 +198,12 @@ footer a:hover {
   padding: 10px 0;
 }
 
-#courses p {
+#courses p,
+#accommodation p {
   color: #065446;
   padding: 1.6rem 1.25rem;
 }
 
-.btn-courses {
+.btn-home-section {
   margin-bottom: 3.2rem;
 }
