@@ -106,7 +106,7 @@ To be added as project goes on
 
 ## Project Barriers & Solutions
 
-To be added as project goes on
+I had some difficulties to customise hamburger menu (removing border colour and changing colour of three lines) so I looked up on goole
 
 ## Version Control
 
