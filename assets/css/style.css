@@ -13,12 +13,13 @@ body {
   padding: 0;
 }
 
-/* Headings: All the pages */
+/* ---------- Headings: All the pages */
+h4,
 h6 {
   font-family: "Noto Serif JP", serif;
 }
 
-/* Buttons */
+/* ---------- Buttons */
 
 .btn-red {
   border-radius: 30px;
@@ -42,7 +43,7 @@ h6 {
   box-shadow: none;
 }
 
-/* Header: All the pages */
+/* ---------- Header: All the pages */
 #contact-us-header {
   background-color: #065446;
   color: #fafafa;
@@ -100,7 +101,7 @@ h6 {
 }
 /* /End of Credit */
 
-/* Footer: All the pages */
+/* ---------- Footer: All the pages */
 footer {
   background-color: rgba(6, 84, 70, 0.2);
   color: #065446;
@@ -140,7 +141,7 @@ footer a:hover {
   margin: 0 auto 0.6rem;
 }
 
-/* Modal: All the pages */
+/* ---------- Modal: All the pages */
 .form-group {
   font-size: 0.9rem;
   margin: 0.7rem 1.8rem 0;
@@ -149,4 +150,30 @@ footer a:hover {
 .form-control:focus {
   border-color: #ced4da;
   box-shadow: 0 0 0 0.2rem rgba(232, 70, 16, 0.2);
+}
+
+/* ---------- Sections: Home */
+#hero-image {
+  background: url(/assets/images/school.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+  position: relative;
+  width: 100%;
+}
+
+#catchphrase {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.3rem;
+  bottom: 3.1rem;
+  color: #065446;
+  height: 11rem;
+  padding: 1.4rem 1.4rem 1.4rem 2.1rem;
+  position: absolute;
+  right: 0.6rem;
+  width: 19rem;
+}
+
+#catchphrase h4 {
+  font-weight: 700;
+  line-height: 2rem;
 }
