@@ -97,8 +97,9 @@ Font Awesome
 
 ## Resources
 
-Code Institute course materials
-Youtube
+Code Institute course materials as general resources
+MDN website as general resources
+Youtube as general resources
 
 ## Testing
 
