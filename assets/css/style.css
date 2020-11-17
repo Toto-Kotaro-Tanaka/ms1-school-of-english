@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Open+Sans:wght@300;400;700&display=swap");
+
+/* font-family: 'Noto Serif JP', serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+/* Header:All the pages */
+body {
+  background-color: #fafafa;
+  font-family: "Open Sans", sans-serif;
+}
+
+#contact-us {
+  background-color: #065446;
+  color: #fafafa;
+  height: 35px;
+  padding: 5px 20px 0 0;
+  text-align: right;
+}
+
+#logo {
+  background-color: #fafafa !important;
+}
+
+#navbarNav li a {
+  color: #065446;
+}
+
+.menu-active {
+  font-weight: 700;
+}
+
+.navbar-collapse {
+  background-color: #fafafa;
+}
+
+.navbar-toggler {
+  border: none;
+}
