@@ -3,28 +3,78 @@
 /* font-family: 'Noto Serif JP', serif; */
 /* font-family: 'Open Sans', sans-serif; */
 
-/* Header:All the pages */
 body {
   background-color: #fafafa;
   font-family: "Open Sans", sans-serif;
 }
 
-#contact-us {
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings: All the pages */
+h6 {
+  font-family: "Noto Serif JP", serif;
+}
+
+/* Buttons */
+
+.btn-red {
+  border-radius: 30px;
+  background-color: rgba(232, 70, 16, 0.7);
+  border-color: none;
+  color: #fafafa;
+  height: 2.5rem;
+  margin: 1.25rem 0 1.8rem 1.8rem;
+  width: 8.5rem;
+}
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus,
+.btn-red:active:focus {
+  background-color: #e84610;
+  color: #fafafa;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+/* Header: All the pages */
+#contact-us-header {
   background-color: #065446;
   color: #fafafa;
-  height: 35px;
-  padding: 5px 20px 0 0;
+  font-size: 0.9rem;
+  height: 2.2rem;
+  padding: 0.4rem 1.25rem 0 0;
   text-align: right;
+}
+
+#contact-us-header p:hover,
+.contact-us-footer:hover {
+  cursor: pointer;
+  font-weight: 700;
 }
 
 #logo {
   background-color: #fafafa !important;
 }
 
+.navbar-brand {
+  width: 75%;
+}
+
+#logo img {
+  width: 100%;
+}
+
 #navbarNav li a {
   color: #065446;
 }
 
+.navbar-nav li a:hover,
 .menu-active {
   font-weight: 700;
 }
@@ -35,4 +85,65 @@ body {
 
 .navbar-toggler {
   border: none;
+}
+
+/* Credit: Stackoverflow @https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4
+ */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  box-shadow: none;
+  outline: none;
+}
+/* /End of Credit */
+
+/* Footer: All the pages */
+footer {
+  background-color: rgba(6, 84, 70, 0.2);
+  color: #065446;
+  font-size: 0.9rem;
+  padding: 1.25rem 1.25rem 0;
+}
+
+footer h6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+footer a {
+  color: #065446;
+}
+
+footer a:hover {
+  color: #065446;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#copyright {
+  margin: 0 auto 0.6rem;
+}
+
+/* Modal: All the pages */
+.form-group {
+  font-size: 0.9rem;
+  margin: 0.7rem 1.8rem 0;
+}
+
+.form-control:focus {
+  border-color: #ced4da;
+  box-shadow: 0 0 0 0.2rem rgba(232, 70, 16, 0.2);
 }
