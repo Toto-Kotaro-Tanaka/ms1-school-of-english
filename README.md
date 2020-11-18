@@ -132,13 +132,27 @@ Stackoverflow
 
 Main Logo, created by me using Wix Logo maker
 
-Hero image, unsplash by Ryan Jacobson @ https://unsplash.com/@lndtxphoto
+Hero image, unsplash by Ryan Jacobson @ https://unsplash.com/photos/cXUOQWdRV4I
 
 Feedback images
-feedback1-jessica, unsplash by Icons8 Team @ https://unsplash.com/@icons8
-feedback2-daniel, unsplash by Johm Kan @ https://unsplash.com/@johmkan
-feedback3-sena, unsplash by Lars Zhang @ https://unsplash.com/@larsing
-feedback4-benjamin, unsplash by Tamarcus Brown @ https://unsplash.com/@tamarcusbrown
-feedback5-maria, unsplash by Irene Strong @ https://unsplash.com/@leirenestrong
+feedback1-jessica, unsplash by Icons8 Team @ https://unsplash.com/photos/FcLyt7lW5wg
+feedback2-daniel, unsplash by Johm Kan @ https://unsplash.com/photos/71NgiXcdTzE
+feedback3-sena, unsplash by Lars Zhang @ https://unsplash.com/photos/bd-tuYm6WWs
+feedback4-benjamin, unsplash by Tamarcus Brown @ https://unsplash.com/photos/29pFbI_D1Sc
+feedback5-maria, unsplash by Irene Strong @ https://unsplash.com/photos/MgvAATOwJBc \*https://crop-circle.imageonline.co/
+
+Courses images
+courses1, unsplash by Windows @ https://unsplash.com/photos/kRWY72TKB0Y
+courses2, unsplash by You X Ventures @ https://unsplash.com/photos/Oalh2MojUuk
+courses3, unsplash by ThisiEnginneringRAEng @ https://unsplash.com/photos/TXxiFuQLBKQ
+courses4, unsplash by Devon Divine @ https://unsplash.com/photos/Hzp-1ua8DVE
+courses5, unsplash by M. Monk @ https://unsplash.com/photos/E813FON0wDQ
+
+Accommodation images
+accommodation1, unsplash by Jamie Whiffen @ https://unsplash.com/photos/yXBeuNhmbNY
+accommodation2, pexels by Askar Abayev @ https://www.pexels.com/photo/group-of-people-standing-near-brown-wooden-table-5638600/
+accommodation3, pexels by Yan @ https://www.pexels.com/photo/people-riding-bicycle-on-dirt-road-5792903/
+accommodation4, unsplash by Edgar Castrejon @ https://unsplash.com/photos/bG5rhvRH0JM
+accommodation5, pexels by Pixabay @ https://www.pexels.com/photo/apartment-chairs-clean-contemporary-534172/
 
 ### Acknowledgements
