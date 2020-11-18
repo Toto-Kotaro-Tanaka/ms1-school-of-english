@@ -85,7 +85,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 
 ## Features
 
-To be added as project goes on
+On Modal form, I wanted to add function to prevent the form being sent unless email addresses match but I wasn't able to set this up as JavaScript is required for this.
 
 ## Technologies Used
 
