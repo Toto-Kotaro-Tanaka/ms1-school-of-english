@@ -216,26 +216,18 @@ footer a:hover {
 }
 
 /* ---------- Sections Courses Accommodation Feedback: Home */
-#courses,
-#accommodation,
-#feedback {
+.section-style {
   background-color: #f1f1f1;
   text-align: center;
 }
-
-#courses h3,
-#accommodation h3,
-#feedback h3 {
+.section-style h3 {
   color: #fafafa;
   background-color: #065446;
   font-size: 1.2rem;
   letter-spacing: 0.07rem;
   padding: 10px 0;
 }
-
-#courses p,
-#accommodation p,
-#feedback p {
+.section-style p {
   color: #065446;
   font-size: 0.9rem;
   padding: 1.6rem 1.25rem;
@@ -254,7 +246,7 @@ footer a:hover {
   width: 6.3rem;
 }
 
-#feedback h6 {
+.feedback h6 {
   color: #065446;
   font-size: 0.8rem;
 }
@@ -262,4 +254,26 @@ footer a:hover {
 .feedback-individual p {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
+}
+
+/* ---------- Sections General Exam: Courses */
+.courses-general p,
+.courses-general h6,
+.courses-general ul {
+  text-align: left;
+}
+
+.courses-heading {
+  color: #065446;
+  font-weight: 700;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.courses-general ul {
+  color: #065446;
+  font-size: 0.9rem;
+  margin: 0 10px 30px;
+  padding-right: 10px;
+  text-align: left;
 }
