@@ -13,70 +13,7 @@ body {
   padding: 0;
 }
 
-/* ---------- Headings: All the pages */
-h3,
-h4,
-h6 {
-  font-family: "Noto Serif JP", serif;
-}
-
-/* ---------- Buttons */
-
-.btn-red {
-  border-radius: 30px;
-  background-color: rgba(232, 70, 16, 0.7);
-  border-color: none;
-  color: #fafafa;
-  height: 2.5rem;
-  width: 8.5rem;
-}
-
-.btn-red:hover,
-.btn-red:active,
-.btn-red:focus,
-.btn-red:active:focus {
-  background-color: #e84610;
-  color: #fafafa;
-}
-
-.btn:focus {
-  box-shadow: none;
-}
-
-/* ---------- Carousel */
-/* Credit: Stackoverflow @ https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel */
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e84610' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e84610' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-prev-icon-white {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fafafa' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon-white {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fafafa' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-/* /End of Credit */
-
-.carousel-indicators li {
-  background-color: #e84610;
-}
-
-.carousel-indicators-white li {
-  background-color: #fafafa;
-}
-
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
-  transition: transform 1s ease;
-}
-
-/* ---------- Header: All the pages */
+/* ---------- All: Header */
 #contact-us-header {
   background-color: #065446;
   color: #fafafa;
@@ -134,7 +71,78 @@ h6 {
 }
 /* /End of Credit */
 
-/* ---------- Footer: All the pages */
+/* ---------- All: Headings */
+h3,
+h4,
+h6 {
+  font-family: "Noto Serif JP", serif;
+}
+
+/* ---------- All: Border */
+/* .border {
+  background-color: red;
+  height: 0.2rem;
+  margin: 1rem auto;
+  width: 2rem;
+} */
+
+/* ---------- All: Buttons */
+
+.btn-red {
+  border-radius: 30px;
+  background-color: rgba(232, 70, 16, 0.7);
+  border-color: none;
+  color: #fafafa;
+  height: 2.5rem;
+  width: 8.5rem;
+}
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus,
+.btn-red:active:focus {
+  background-color: #e84610;
+  color: #fafafa;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+/* ---------- All: Carousel */
+/* Credit: Stackoverflow @ https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e84610' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e84610' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon-white {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fafafa' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon-white {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fafafa' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+/* /End of Credit */
+
+.carousel-indicators li {
+  background-color: #e84610;
+}
+
+.carousel-indicators-white li {
+  background-color: #fafafa;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1s ease;
+}
+
+/* ---------- All: Footer */
 footer {
   background-color: rgba(6, 84, 70, 0.2);
   color: #065446;
@@ -174,7 +182,7 @@ footer a:hover {
   margin: 0 auto 0.6rem;
 }
 
-/* ---------- Modal: All the pages */
+/* ---------- All: Modal */
 .form-group {
   font-size: 0.9rem;
   margin: 0.7rem 1.8rem 0;
@@ -189,7 +197,7 @@ footer a:hover {
   margin: 1.25rem 0 1.8rem 1.8rem;
 }
 
-/* ---------- Section Hero Image: Home */
+/* ---------- Home: Section Hero Image */
 #hero-image {
   background: url(/assets/images/school.jpg) no-repeat;
   background-size: cover;
@@ -215,7 +223,7 @@ footer a:hover {
   line-height: 2rem;
 }
 
-/* ---------- Sections Courses Accommodation Feedback: Home */
+/* ---------- Home: Sections Courses / Accommodation / Feedback */
 .section-style {
   background-color: #f1f1f1;
   text-align: center;
@@ -256,7 +264,7 @@ footer a:hover {
   margin-right: 2.5rem;
 }
 
-/* ---------- Sections General Exam: Courses & Accommodation */
+/* ---------- Courses and Accommodation: Sections General / Exam / Host Family / Residence  */
 .section-general p,
 .section-general h6,
 .section-general ul {
@@ -277,3 +285,5 @@ footer a:hover {
   padding-right: 10px;
   text-align: left;
 }
+
+/* ---------- Register: Section  */
