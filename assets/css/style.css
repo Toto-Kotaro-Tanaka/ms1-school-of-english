@@ -256,21 +256,21 @@ footer a:hover {
   margin-right: 2.5rem;
 }
 
-/* ---------- Sections General Exam: Courses */
-.courses-general p,
-.courses-general h6,
-.courses-general ul {
+/* ---------- Sections General Exam: Courses & Accommodation */
+.section-general p,
+.section-general h6,
+.section-general ul {
   text-align: left;
 }
 
-.courses-heading {
+.section-heading {
   color: #065446;
   font-weight: 700;
   padding-left: 30px;
   text-align: left;
 }
 
-.courses-general ul {
+.section-general ul {
   color: #065446;
   font-size: 0.9rem;
   margin: 0 10px 30px;
