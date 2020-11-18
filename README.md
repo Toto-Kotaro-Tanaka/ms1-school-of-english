@@ -122,9 +122,21 @@ To be added as project goes on
 ### code
 
 Bootstrap
+Stackoverflow
 
 ### Contents
 
 ### Media
+
+Main Logo, created by me using Wix Logo maker
+
+Hero image, unsplash by Ryan Jacobson @ https://unsplash.com/@lndtxphoto
+
+Feedback images
+feedback1-jessica, unsplash by Icons8 Team @ https://unsplash.com/@icons8
+feedback2-daniel, unsplash by Johm Kan @ https://unsplash.com/@johmkan
+feedback3-sena, unsplash by Lars Zhang @ https://unsplash.com/@larsing
+feedback4-benjamin, unsplash by Tamarcus Brown @ https://unsplash.com/@tamarcusbrown
+feedback5-maria, unsplash by Irene Strong @ https://unsplash.com/@leirenestrong
 
 ### Acknowledgements

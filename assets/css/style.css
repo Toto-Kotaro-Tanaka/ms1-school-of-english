@@ -43,6 +43,27 @@ h6 {
   box-shadow: none;
 }
 
+/* ---------- Carousel */
+/* Credit: Stackoverflow @ https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e84610' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e84610' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+/* /End of Credit */
+
+.carousel-indicators li {
+  background-color: #e84610;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1s ease;
+}
+
 /* ---------- Header: All the pages */
 #contact-us-header {
   background-color: #065446;
@@ -88,7 +109,7 @@ h6 {
   border: none;
 }
 
-/* Credit: Stackoverflow @https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4 and @ https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color */
+/* Credit: Stackoverflow @ https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4 and @ https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color */
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -156,7 +177,7 @@ footer a:hover {
   margin: 1.25rem 0 1.8rem 1.8rem;
 }
 
-/* ---------- First Section(hero image): Home */
+/* ---------- Section Hero Image: Home */
 #hero-image {
   background: url(/assets/images/school.jpg) no-repeat;
   background-size: cover;
@@ -182,15 +203,17 @@ footer a:hover {
   line-height: 2rem;
 }
 
-/* ---------- Second Section(courses): Home */
+/* ---------- Sections Courses Accommodation Feedback: Home */
 #courses,
-#accommodation {
+#accommodation,
+#feedback {
   background-color: #f1f1f1;
   text-align: center;
 }
 
 #courses h3,
-#accommodation h3 {
+#accommodation h3,
+#feedback h3 {
   color: #fafafa;
   background-color: #065446;
   font-size: 1.2rem;
@@ -199,11 +222,32 @@ footer a:hover {
 }
 
 #courses p,
-#accommodation p {
+#accommodation p,
+#feedback p {
   color: #065446;
+  font-size: 0.9rem;
   padding: 1.6rem 1.25rem;
 }
 
 .btn-home-section {
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+#feedback-controls {
+  min-height: 24rem;
+}
+
+.feedback-individual img {
+  padding: 1rem 0;
+  width: 6.3rem;
+}
+
+#feedback h6 {
+  color: #065446;
+  font-size: 0.8rem;
+}
+
+.feedback-individual p {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
