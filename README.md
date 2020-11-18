@@ -149,10 +149,10 @@ courses4, unsplash by Devon Divine @ https://unsplash.com/photos/Hzp-1ua8DVE
 courses5, unsplash by M. Monk @ https://unsplash.com/photos/E813FON0wDQ
 
 Accommodation images
-accommodation1, unsplash by Jamie Whiffen @ https://unsplash.com/photos/yXBeuNhmbNY
+accommodation1, unsplash by Dimitry Anikin @ https://unsplash.com/photos/IfPmy_JmIY8
 accommodation2, pexels by Askar Abayev @ https://www.pexels.com/photo/group-of-people-standing-near-brown-wooden-table-5638600/
 accommodation3, pexels by Yan @ https://www.pexels.com/photo/people-riding-bicycle-on-dirt-road-5792903/
 accommodation4, unsplash by Edgar Castrejon @ https://unsplash.com/photos/bG5rhvRH0JM
-accommodation5, pexels by Pixabay @ https://www.pexels.com/photo/apartment-chairs-clean-contemporary-534172/
+accommodation5, unsplash by Raphael Schaller @ https://unsplash.com/photos/Cz_Xbm3Jyyw
 
 ### Acknowledgements
