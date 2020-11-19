@@ -89,9 +89,9 @@ h6 {
 /* ---------- All: Buttons */
 
 .btn-red {
-  border-radius: 30px;
   background-color: rgba(232, 70, 16, 0.7);
   border-color: none;
+  border-radius: 30px;
   color: #fafafa;
   height: 2.5rem;
   width: 8.5rem;
@@ -107,6 +107,10 @@ h6 {
 
 .btn:focus {
   box-shadow: none;
+}
+
+.btn-margin {
+  margin: 1.25rem 0 1.8rem 1.8rem;
 }
 
 /* ---------- All: Carousel */
@@ -184,6 +188,7 @@ footer a:hover {
 
 /* ---------- All: Modal */
 .form-group {
+  color: #898b8a;
   font-size: 0.9rem;
   margin: 0.7rem 1.8rem 0;
 }
@@ -191,10 +196,6 @@ footer a:hover {
 .form-control:focus {
   border-color: #ced4da;
   box-shadow: 0 0 0 0.2rem rgba(232, 70, 16, 0.2);
-}
-
-.btn-modal {
-  margin: 1.25rem 0 1.8rem 1.8rem;
 }
 
 /* ---------- Home: Section Hero Image */
@@ -229,8 +230,8 @@ footer a:hover {
   text-align: center;
 }
 .section-style h3 {
-  color: #fafafa;
   background-color: #065446;
+  color: #fafafa;
   font-size: 1.2rem;
   letter-spacing: 0.07rem;
   padding: 10px 0;
@@ -286,4 +287,29 @@ footer a:hover {
   text-align: left;
 }
 
-/* ---------- Register: Section  */
+/* ---------- Register: Section  Registration Form */
+#registration-form {
+  color: #898b8a;
+}
+
+.border-register {
+  margin: 0;
+}
+
+#registration-form h4 {
+  color: #065446;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+#registration-form p {
+  color: #065446;
+  text-align: center;
+}
+
+
+
+
+
+
+

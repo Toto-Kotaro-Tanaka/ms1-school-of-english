@@ -50,13 +50,13 @@
         <!-- /End of Credit -->
       </header>
       
-      <section id="registration-form">
+      <section>
         <hr class="border-register">
         <h4>Registration Form</h4>
-        <!-- Credit: Bootstrap Forms @ https://getbootstrap.com/docs/4.5/components/forms/ I made significant changes -->
+        <!-- Credit: Bootstrap Forms @ https://getbootstrap.com/docs/4.5/components/forms/ -->
         <form>
           <p>
-            Please complete all the sections below
+            Please complete <b>all</b> the details below
           </p>
           <div class="form-row">
             <div class="form-group col-md-6">
@@ -69,85 +69,57 @@
             </div>
             <div class="form-group col-md-6">
               <label for="date-of-birth">Date of Birth</label>
-              <input type="date" class="form-control date-picker" id="date-of-birth" required>
+              <input type="text" class="form-control" id="date-of-birth">
             </div>
+
+            <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Volvo XC90</option>
+    <option value="saab">Saab 95</option>
+    <option value="mercedes">Mercedes SLK</option>
+    <option value="audi">Audi TT</option>
+  </select>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <input type="submit">
+          
             <div class="form-group col-md-6">
               <label for="nationality">Nationality</label>
-              <select class="form-control" id="nationality" name="nationality" required>
-                <option value="select-nationality" selected disabled>-Select Nationality-</option>
-                <option value="austrian">Austrian</option>
-                <option value="belgian">Belgian</option>
-                <option value="brazilian">Brazilian</option>
-                <option value="chinese">Chinese</option>
-                <option value="french">French</option>
-                <option value="german">German</option>
-                <option value="italian">Italian</option>
-                <option value="japanese">Japanese</option>
-                <option value="korean">Korean</option>
-                <option value="spanish">Spanish</option>
-                <option value="saudi">Saudi</option>
-                <option value="swiss">Swiss</option>
-              </select>
+              <input type="text" class="form-control" id="nationality">
             </div>
             <div class="form-group col-md-6">
               <label for="language">Language</label>
-              <select class="form-control" id="language" name="language" required>
-                <option class="select-language" value="select-Language" selected disabled>-Select Language-</option>
-                <option value="arabic">Arabic</option>
-                <option value="chinese">Chinese</option>
-                <option value="french">French</option>
-                <option value="german">German</option>
-                <option value="italian">Italian</option>
-                <option value="japanese">Japanese</option>
-                <option value="korean">Korean</option>
-                <option value="portuguese">Portuguese</option>
-                <option value="spanish">Spanish</option>
-              </select>
+              <input type="text" class="form-control" id="language">
             </div>
             <div class="form-group col-md-6">
               <label for="email">E-mail</label>
-              <input type="email" class="form-control" id="email" required>
+              <input type="email" class="form-control" id="email">
             </div>
             <div class="form-group col-md-6">
               <label for="mobile">Mobile</label>
-              <input type="text" class="form-control" id="mobile" required>
+              <input type="text" class="form-control" id="mobile">
             </div>
             <div class="form-group col-md-6">
               <label for="course">Course</label>
-              <select class="form-control" id="course" name="course" required>
-                <option value="select-course" selected disabled>-Select Course-</option>
-                <option value="standard-general">Standard General English</option>
-                <option value="intensive-general">Intensive General English</option>
-                <option value="standard-exam">Standard Exam Preparation</option>
-                <option value="intensive-exam">Intensive Exam Preparation</option>
-              </select>
+              <input type="text" class="form-control" id="course">
             </div>
             <div class="form-group col-md-6">
-              <label for="course">Accommodation</label>
-              <select class="form-control" id="accommodation" name="accommodation" required>
-                <option value="select-accommodation" selected disabled>-Select Accommodation-</option>
-                <option value="host-family">Host Family</option>
-                <option value="residence">Residence</option>
-              </select>
+              <label for="accommodation">Accommodation</label>
+              <input type="text" class="form-control" id="accommodation">
             </div>
             <div class="form-group col-md-6">
               <label for="from-date">From Date</label>
-              <input type="date" class="form-control" id="from-date" required>
+              <input type="text" class="form-control" id="from-date">
             </div>
             <div class="form-group col-md-6">
               <label for="to-date">To Date</label>
-              <input type="date" class="form-control" id="to-date" required>
+              <input type="text" class="form-control" id="to-date">
             </div>
-          </div>
-          <div class="form-group">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" required>
-              <label class="form-check-label" for="gridCheck">I agree the terms and conditions</label>
-            </div>
-          </div>
-          <button type="submit" class="btn btn-red btn-margin">Register</button>
-        </form>
+
+
         <!-- /End of Credit -->
+        </form>
       </section>
 
       <footer>
@@ -205,7 +177,7 @@
                 <label for="text">Queries</label>
                 <textarea class="form-control" id="text" rows="3" required></textarea>
               </div>
-              <button type="submit" class="btn btn-red btn-margin">Send</button>
+              <button type="submit" class="btn btn-red btn-modal">Send</button>
             </form>
           </div>
         </div>
@@ -216,6 +188,7 @@
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
     </div>
   </body>
 </html>

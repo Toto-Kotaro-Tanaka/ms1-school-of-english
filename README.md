@@ -110,6 +110,8 @@ To be added as project goes on
 ## Project Barriers & Solutions
 
 I had some difficulties to customise hamburger menu (removing border colour and changing colour of three lines) so I looked up on goole
+I want to add more nationalities and languages on registration form
+I want to style date picker
 
 ## Version Control
 
