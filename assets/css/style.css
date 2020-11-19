@@ -373,7 +373,7 @@ footer a:hover {
   }
 
   .section-style h3 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     padding: 1rem 0;
   }
   
@@ -383,8 +383,9 @@ footer a:hover {
     margin: 1rem;
   }
 
-  .section-article p {
+  .section-article-home p {
     font-size: 1.2rem;
+    min-height: 24rem;
   }
 
   .feedback-individual img {
@@ -400,7 +401,21 @@ footer a:hover {
     font-size: 1.2rem;
     margin: 1rem 8rem 3rem;
   }
-    
+
+  /* ---------- Courses and Accommodation: Sections General / Exam / Host Family / Residence  */
+  .section-article-courses p {
+    font-size: 1.2rem;
+    min-height: 12rem;
+  }
+  
+  .section-general {
+    padding-bottom: 3rem;
+  }
+  
+  .section-general ul {
+    font-size: 1rem;
+  }
+  
 }
 
 
