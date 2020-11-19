@@ -8,10 +8,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.container {
-  margin: 0;
+/* .container {
+  margin: 0 auto;
   padding: 0;
-}
+} */
 
 /* ---------- All: Header */
 #contact-us-header {
@@ -19,7 +19,7 @@ body {
   color: #fafafa;
   font-size: 0.9rem;
   height: 2.2rem;
-  padding: 0.4rem 1.25rem 0 0;
+  padding: 0.4rem 1.3rem 0 0;
   text-align: right;
 }
 
@@ -91,7 +91,7 @@ h6 {
 .btn-red {
   background-color: rgba(232, 70, 16, 0.7);
   border-color: none;
-  border-radius: 30px;
+  border-radius: 1.9rem;
   color: #fafafa;
   height: 2.5rem;
   width: 8.5rem;
@@ -110,7 +110,7 @@ h6 {
 }
 
 .btn-margin {
-  margin: 1.25rem 0 1.8rem 1.8rem;
+  margin: 1.3rem 0 1.8rem 1.8rem;
 }
 
 /* ---------- All: Carousel */
@@ -151,7 +151,7 @@ footer {
   background-color: rgba(6, 84, 70, 0.2);
   color: #065446;
   font-size: 0.9rem;
-  padding: 1.25rem 1.25rem 0;
+  padding: 1.3rem 1.3rem 0;
 }
 
 footer h6 {
@@ -229,6 +229,7 @@ footer a:hover {
   background-color: #f1f1f1;
   text-align: center;
 }
+
 .section-style h3 {
   background-color: #065446;
   color: #fafafa;
@@ -236,10 +237,11 @@ footer a:hover {
   letter-spacing: 0.07rem;
   padding: 10px 0;
 }
+
 .section-style p {
   color: #065446;
   font-size: 0.9rem;
-  padding: 1.6rem 1.25rem;
+  padding: 1.6rem 1.3rem;
 }
 
 .btn-home-section {
@@ -275,15 +277,15 @@ footer a:hover {
 .section-heading {
   color: #065446;
   font-weight: 700;
-  padding-left: 30px;
+  padding-left: 1.9rem;
   text-align: left;
 }
 
 .section-general ul {
   color: #065446;
   font-size: 0.9rem;
-  margin: 0 10px 30px;
-  padding-right: 10px;
+  margin: 0 0.6rem 1.9rem;
+  padding-right: 0.6rem;
   text-align: left;
 }
 
@@ -305,6 +307,45 @@ footer a:hover {
 #registration-form p {
   color: #065446;
   text-align: center;
+}
+
+/* ---------- Media Query: Tablet Size */
+@media only screen and (min-width: 767.8px) {
+
+  #contact-us-header {
+    font-size: 1.1rem;
+    height: 2.5rem;
+    padding-right: 1.8rem;
+  }  
+
+  #logo img {
+    width: 70%;
+  }
+
+  .navbar-nav li {
+    font-size: 1.1rem;
+  }
+
+  #catchphrase {
+    bottom: 2rem;
+    height: 13.4rem;
+    right: 1.5rem;
+    width: 22.2rem;
+  }  
+
+  #catchphrase h4 {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    padding-left: 1rem;
+  }
+
+  .section-background {
+    background-color: #fff;
+  }
+  
+  .section-article {
+    margin: 1.5rem;
+  }
 }
 
 
