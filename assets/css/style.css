@@ -309,9 +309,10 @@ footer a:hover {
   text-align: center;
 }
 
-/* ---------- Media Query: Tablet Size */
+/* ---------- Media Query: Tablet Size ---------- */
 @media only screen and (min-width: 767.8px) {
 
+  /* ---------- All: Header */
   #contact-us-header {
     font-size: 1.1rem;
     height: 2.5rem;
@@ -326,6 +327,25 @@ footer a:hover {
     font-size: 1.1rem;
   }
 
+  /* ---------- All: Footer */
+  footer {
+    font-size: 1rem;
+  }
+
+  footer h6 {
+    font-size: 1.1rem;
+  }
+
+  footer ul li {
+    font-size: 1.8rem;
+    margin-right: 1.5rem;
+  }
+    
+  #copyright {
+    margin: 0 auto 1rem;
+  }
+
+/* ---------- Home: Section Hero Image */
   #catchphrase {
     bottom: 2rem;
     height: 13.4rem;
@@ -339,6 +359,7 @@ footer a:hover {
     padding-left: 1rem;
   }
 
+  /* ---------- Home: Sections Courses / Accommodation / Feedback */
   .section-style {
     padding-top: 3rem;
   }
@@ -378,8 +399,8 @@ footer a:hover {
   .feedback-individual p {
     font-size: 1.2rem;
     margin: 1rem 8rem 3rem;
-  }  
-
+  }
+    
 }
 
 
