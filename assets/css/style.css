@@ -309,7 +309,7 @@ footer a:hover {
   text-align: center;
 }
 
-/* ---------- Media Query: Tablet Size ---------- */
+/* -------------------- Media Query: Tablet Size -------------------- */
 @media only screen and (min-width: 767.8px) {
 
   /* ---------- All: Header */
@@ -373,6 +373,7 @@ footer a:hover {
   }
 
   .section-style h3 {
+    border-radius: 0.4rem 0.4rem 0 0;
     font-size: 1.3rem;
     padding: 1rem 0;
   }
@@ -400,10 +401,12 @@ footer a:hover {
   .feedback-individual p {
     font-size: 1.2rem;
     margin: 1rem 8rem 3rem;
+    min-height: 10.5rem;
   }
 
   /* ---------- Courses and Accommodation: Sections General / Exam / Host Family / Residence  */
-  .section-article-courses p {
+  .section-article-courses p,
+  .section-article-accommodation p {
     font-size: 1.2rem;
     min-height: 12rem;
   }
@@ -414,6 +417,10 @@ footer a:hover {
   
   .section-general ul {
     font-size: 1rem;
+  }
+
+  .section-article-accommodation ul {
+    min-height: 8rem;
   }
   
 }
