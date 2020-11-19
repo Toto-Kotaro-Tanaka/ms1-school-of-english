@@ -235,7 +235,7 @@ footer a:hover {
   color: #fafafa;
   font-size: 1.2rem;
   letter-spacing: 0.07rem;
-  padding: 10px 0;
+  padding: 0.6rem 0;
 }
 
 .section-style p {
@@ -351,6 +351,11 @@ footer a:hover {
     padding-left: 0;
   }
 
+  .section-style h3 {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+  }
+  
   .section-article {
     border: 1px solid #065446;
     border-radius: 0.5rem;
@@ -360,6 +365,20 @@ footer a:hover {
   .section-article p {
     font-size: 1.2rem;
   }
+
+  .feedback-individual img {
+    padding: 2rem 0;
+    width: 9.5rem;
+  }
+  
+  .feedback h6 {
+    font-size: 1rem;
+  }
+  
+  .feedback-individual p {
+    font-size: 1.2rem;
+    margin: 1rem 8rem 3rem;
+  }  
 
 }
 
