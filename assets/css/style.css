@@ -339,13 +339,28 @@ footer a:hover {
     padding-left: 1rem;
   }
 
-  .section-background {
-    background-color: #fff;
+  .section-style {
+    padding-top: 3rem;
   }
-  
+
+  .section-style-left {
+    padding-right: 0;
+  }
+
+  .section-style-right {
+    padding-left: 0;
+  }
+
   .section-article {
-    margin: 1.5rem;
+    border: 1px solid #065446;
+    border-radius: 0.5rem;
+    margin: 1rem;
   }
+
+  .section-article p {
+    font-size: 1.2rem;
+  }
+
 }
 
 
