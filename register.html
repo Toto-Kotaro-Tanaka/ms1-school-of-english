@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container-fluid p-0">
       <header>
         <div id="contact-us-header">
           <p class="contact-us-modal" data-toggle="modal" data-target="#contact-us-modal">Contact Us <i class="far fa-envelope"></i></p>
@@ -50,28 +50,28 @@
         <!-- /End of Credit -->
       </header>
       
-      <section id="registration-form">
-        <hr class="border-register">
+      <hr class="border-register">
+      <section id="register">
         <h4>Registration Form</h4>
         <!-- Credit: Bootstrap Forms @ https://getbootstrap.com/docs/4.5/components/forms/ I made significant changes -->
         <form>
           <p>
             Please complete all the sections below
           </p>
-          <div class="form-row">
-            <div class="form-group col-md-6">
+          <div class="form-row registration-form">
+            <div class="form-group col-md-11">
               <label for="first-name">First Name</label>
               <input type="text" class="form-control" id="first-name" required>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-11">
               <label for="family-name">Family Name</label>
               <input type="text" class="form-control" id="family-name" required>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-11">
               <label for="date-of-birth">Date of Birth</label>
               <input type="date" class="form-control date-picker" id="date-of-birth" required>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-11">
               <label for="nationality">Nationality</label>
               <select class="form-control" id="nationality" name="nationality" required>
                 <option value="select-nationality" selected disabled>-Select Nationality-</option>
@@ -89,7 +89,7 @@
                 <option value="swiss">Swiss</option>
               </select>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-11">
               <label for="language">Language</label>
               <select class="form-control" id="language" name="language" required>
                 <option class="select-language" value="select-Language" selected disabled>-Select Language-</option>
@@ -104,15 +104,15 @@
                 <option value="spanish">Spanish</option>
               </select>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-11">
               <label for="email">E-mail</label>
               <input type="email" class="form-control" id="email" required>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-11">
               <label for="mobile">Mobile</label>
               <input type="text" class="form-control" id="mobile" required>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-11">
               <label for="course">Course</label>
               <select class="form-control" id="course" name="course" required>
                 <option value="select-course" selected disabled>-Select Course-</option>
@@ -122,7 +122,7 @@
                 <option value="intensive-exam">Intensive Exam Preparation</option>
               </select>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-11">
               <label for="course">Accommodation</label>
               <select class="form-control" id="accommodation" name="accommodation" required>
                 <option value="select-accommodation" selected disabled>-Select Accommodation-</option>
@@ -130,11 +130,11 @@
                 <option value="residence">Residence</option>
               </select>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-11">
               <label for="from-date">From Date</label>
               <input type="date" class="form-control" id="from-date" required>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-11">
               <label for="to-date">To Date</label>
               <input type="date" class="form-control" id="to-date" required>
             </div>

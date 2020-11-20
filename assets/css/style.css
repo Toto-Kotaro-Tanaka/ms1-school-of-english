@@ -289,8 +289,8 @@ footer a:hover {
   text-align: left;
 }
 
-/* ---------- Register: Section  Registration Form */
-#registration-form {
+/* ---------- Register: Section Register */
+#register {
   color: #898b8a;
 }
 
@@ -298,13 +298,14 @@ footer a:hover {
   margin: 0;
 }
 
-#registration-form h4 {
+#register h4 {
   color: #065446;
+  font-weight: 700;
   margin: 1.5rem 0;
   text-align: center;
 }
 
-#registration-form p {
+#register p {
   color: #065446;
   text-align: center;
 }
@@ -373,9 +374,13 @@ footer a:hover {
   }
 
   .section-style h3 {
-    border-radius: 0.4rem 0.4rem 0 0;
     font-size: 1.3rem;
     padding: 1rem 0;
+  }
+
+  .section-style-left h3,
+  .section-style-right h3 {
+    border-radius: 0.4rem 0.4rem 0 0;
   }
   
   .section-article {
@@ -422,6 +427,17 @@ footer a:hover {
   .section-article-accommodation ul {
     min-height: 8rem;
   }
+
+  /* ---------- Register: Section  Registration Form */
+  #register {
+    margin: 0 7rem;
+  }
+
+  #register h4 {
+    font-size: 1.4rem;
+  }
+
+  
   
 }
 

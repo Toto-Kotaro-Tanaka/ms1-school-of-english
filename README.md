@@ -73,7 +73,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 
 - [Wireframes](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframes.pdf)
 
-(I changed the design on courses.index. I put the slide show after header which is same style as index.html and this was better layout than having courses contents directly underneath header)
+(I changed the design on courses.index. I put the slide show after header which is same style as index.html and this was better layout than having courses contents directly underneath header. This is also same for accommodation.html)
 
 ### Surface Plane
 
