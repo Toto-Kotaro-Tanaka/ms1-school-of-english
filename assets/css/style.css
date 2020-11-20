@@ -438,7 +438,23 @@ footer a:hover {
 
 /* -------------------- Media Query: PC Size -------------------- */
 @media only screen and (min-width: 991.8px) {
+  /* ---------- All: Header */
+  .navbar-brand {
+    width: 45%;
+  }
 
+  #logo img {
+    width: 80%;
+  }  
+
+  #navbarNav {
+    position: absolute;
+    margin-right: 20px;
+    right: 0;
+    text-align: right;
+  }
+
+    /* ---------- Home: Sections Courses / Accommodation / Feedback */  
   .feedback-individual-lg img {
     padding: 2rem 0;
     width: 7rem;
@@ -446,6 +462,7 @@ footer a:hover {
 
   .feedback-individual-lg p {
     font-size: 1rem;
+    padding: 1.5rem 3.5rem;
   }
 
 
