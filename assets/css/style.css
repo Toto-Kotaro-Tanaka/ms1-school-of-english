@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Open+Sans:wght@300;400;700&display=swap");
 
 body {
-  background-color: #fafafa;
+  background-color: #f1f1f1;
   font-family: "Open Sans", sans-serif;
+  /* margin: 0 auto;
+  max-width: 90rem; */
 }
 
 /* .container {
@@ -407,10 +409,14 @@ footer a:hover {
   }
 
   /* ---------- Courses and Accommodation: Sections General / Exam / Host Family / Residence  */
-  .section-article-courses p,
-  .section-article-accommodation p {
+  .section-article-courses p {
     font-size: 1.2rem;
     min-height: 12rem;
+  }
+
+  .section-article-accommodation p {
+    font-size: 1.2rem;
+    min-height: 17rem;
   }
   
   .section-general {
@@ -473,7 +479,7 @@ footer a:hover {
   #courses-image, 
   #accommodation-image {
     height: 33rem;
-    margin: 0 auto;
+    margin: 4rem auto 0;
     width: 50rem;
   }
   
