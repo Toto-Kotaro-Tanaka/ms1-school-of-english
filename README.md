@@ -88,6 +88,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 ## Features
 
 On Modal form, I wanted to add function to prevent the form being sent unless email addresses match but I wasn't able to set this up as JavaScript is required for this.
+On registration form, I wanted to add more modern calendar which also has only weekends hiliged to be selected but won't have time to look into the details for the moment
 
 ## Technologies Used
 

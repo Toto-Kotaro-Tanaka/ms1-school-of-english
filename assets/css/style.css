@@ -472,12 +472,11 @@ footer a:hover {
   /* ---------- Courses and Accommodation: Sections General / Exam / Host Family / Residence  */
   #courses-image, 
   #accommodation-image {
-    background-color: red !important;
     height: 33rem;
     margin: 0 auto;
     width: 50rem;
   }
-
+  
   .section-article-courses p {
     min-height: 10rem;
   }
