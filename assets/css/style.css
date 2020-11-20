@@ -470,16 +470,24 @@ footer a:hover {
   }
 
   /* ---------- Courses and Accommodation: Sections General / Exam / Host Family / Residence  */
-  #courses-image {
+  #courses-image, 
+  #accommodation-image {
     background-color: red !important;
     height: 33rem;
     margin: 0 auto;
     width: 50rem;
   }
 
-  .section-article-courses p,
+  .section-article-courses p {
+    min-height: 10rem;
+  }
+
   .section-article-accommodation p {
-    min-height: 9rem;
+    min-height: 12rem;
+  }
+
+  .section-article-accommodation ul {
+    min-height: 5rem;
   }
 
 }
