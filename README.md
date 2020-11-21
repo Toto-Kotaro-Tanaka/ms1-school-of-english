@@ -70,7 +70,7 @@ Online registration form (static form) that is kept simple. Some fields have dro
 All pages are designed with the same header and footer so that users can get familiar with the website quickly. There is a navigation bar on the header which includes logo and menu. School's details and social icons are on the footer.
 ~~Green~~ Off white* is used for header and green is for footer, white for body and orange for buttons.
 
-**Note**
+**Note:**
 *When I started coding, I felt Dark Green (#065446), that I was going to use initially, on the header was too strong, therefore I used #fafafa as background colour of header with font colour of Dark Green (#065446). I also decided to add contact section on top of the page so Dark Green is used for this.  
 
 ### Skeleton Plane
@@ -79,7 +79,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 
 - [Wireframes](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframes.pdf)
 
-**Note**
+**Note:**
 I changed the design on courses.index and acoommodation.index for all the sizes. I put the slideshow above courses and accommodation details so that they look same as index.html and this was better layout than the original plan on my wireframes.
 
 ### Surface Plane
@@ -99,10 +99,10 @@ As I mentioned on **Structure Plane** I revisited the colour of header.
 
 ### Existing Features
 
-⋅⋅*Created with HTML5, CSS3, Bootstrap
-⋅⋅*It consits of 4 individual pages plus a price list as separate link page
-⋅⋅*Manual carousel for gallaries
-⋅⋅*Modal for contact form
+⋅⋅* Created with HTML5, CSS3, Bootstrap
+⋅⋅* It consits of 4 individual pages plus a price list as separate link page
+⋅⋅* Manual carousel for gallaries
+⋅⋅* Modal for contact form
 
 ### Features Left To Implement
 ⋅⋅*To prevent contact us form being sent unless e-mail addresses match. As far as I understand, javaScript is required for this.
