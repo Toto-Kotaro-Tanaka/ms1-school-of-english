@@ -199,7 +199,7 @@ footer a:hover {
 
 /* ---------- Home: Section Hero Image */
 #hero-image {
-  background: url(/assets/images/school.jpg) no-repeat;
+  background: url(/assets/images/logo/school.jpg) no-repeat;
   background-size: cover;
   height: 37.5rem;
   position: relative;
