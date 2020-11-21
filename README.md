@@ -136,32 +136,35 @@ To be added as project goes on
 **`CSS3`**
 * [Stackoverflow](https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4) to remove border colour of hamburger menu
  * [Stackoverflow](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color) to change the colour of hamburger menu
- * [Stackoverflow](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel) to change the colour of arrows
+ * [Stackoverflow](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel) to change the colour of carousel arrows
 
 ### Contents
+
+All contents were written by me
+
 ### Media
 
-#### Main Logo
+**`Main Logo`**
 * Created by me using [Wix Logo maker](https://www.wix.com/logo/maker)
 
-#### Hero Image
+**`Hero Image`**
 * [unsplash](https://unsplash.com/) by [Ryan Jacobson](https://unsplash.com/photos/cXUOQWdRV4I)
 
-#### Feedback Images
+**`Feedback Images`**
 * feedback1: [unsplash](https://unsplash.com/) by [Icons8 Team](https://unsplash.com/photos/FcLyt7lW5wg)
 * feedback2: [unsplash](https://unsplash.com/) by [Johm Kan](https://unsplash.com/photos/71NgiXcdTzE)
 * feedback3: [unsplash](https://unsplash.com/) by [Lars Zhang](https://unsplash.com/photos/bd-tuYm6WWs)
 * feedback4: [unsplash](https://unsplash.com/) by [Tamarcus Brown](https://unsplash.com/photos/29pFbI_D1Sc)
 * feedback5: [unsplash](https://unsplash.com/) by [Irene Strong](https://unsplash.com/photos/MgvAATOwJBc)
 
-#### Courses Images
+**`Courses Images`**
 * courses1: [unsplash](https://unsplash.com/) by [Windows](https://unsplash.com/photos/kRWY72TKB0Y)
 * courses2: [unsplash](https://unsplash.com/) by [You X Ventures](https://unsplash.com/photos/Oalh2MojUuk)
 * courses3: [unsplash](https://unsplash.com/) by [ThisiEnginneringRAEng](https://unsplash.com/photos/TXxiFuQLBKQ)
 * courses4: [unsplash](https://unsplash.com/) by [Devon Divine](https://unsplash.com/photos/Hzp-1ua8DVE)
 * courses5: [unsplash](https://unsplash.com/) by [M. Monk](https://unsplash.com/photos/E813FON0wDQ)
 
-#### Accommodation Images
+**`Accommodation Images`**
 * accommodation1: [unsplash](https://unsplash.com/) by [Dimitry Anikin](https://unsplash.com/photos/IfPmy_JmIY8)
 * accommodation2: [pexels](https://www.pexels.com/) by [Askar Abayev](https://www.pexels.com/photo/group-of-people-standing-near-brown-wooden-table-5638600/)
 * accommodation3: [pexels](https://www.pexels.com/) by [Yan](https://www.pexels.com/photo/people-riding-bicycle-on-dirt-road-5792903/)
