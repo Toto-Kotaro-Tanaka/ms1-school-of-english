@@ -122,13 +122,13 @@ h6 {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e84610' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.carousel-control-prev-icon-white {
+/* .carousel-control-prev-icon-white {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fafafa' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
+} */
 
-.carousel-control-next-icon-white {
+/* .carousel-control-next-icon-white {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fafafa' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
+} */
 /* /End of Credit */
 
 .carousel-indicators li {
@@ -136,7 +136,7 @@ h6 {
 }
 
 .carousel-indicators-white li {
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
 }
 
 .carousel-item-next,
@@ -478,10 +478,20 @@ footer a:hover {
   /* ---------- Courses and Accommodation: Sections General / Exam / Host Family / Residence  */
   #courses-image, 
   #accommodation-image {
-    height: 33rem;
-    margin: 4rem auto 0;
-    width: 50rem;
+    height: 37.5rem;
+    /* margin: 4rem auto 0; */
+    /* width: 50rem; */
   }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 37.5rem;
+  }
+
+  .carousel-indicators {
+
+    top: 34rem;
+  }  
   
   .section-article-courses p {
     min-height: 10rem;
