@@ -3,14 +3,9 @@
 body {
   background-color: #f1f1f1;
   font-family: "Open Sans", sans-serif;
-  /* margin: 0 auto;
-  max-width: 90rem; */
-}
-
-/* .container {
   margin: 0 auto;
-  padding: 0;
-} */
+  max-width: 90rem;
+}
 
 /* ---------- All: Header */
 #contact-us-header {
@@ -77,16 +72,7 @@ h6 {
   font-family: "Noto Serif JP", serif;
 }
 
-/* ---------- All: Border */
-/* .border {
-  background-color: red;
-  height: 0.2rem;
-  margin: 1rem auto;
-  width: 2rem;
-} */
-
 /* ---------- All: Buttons */
-
 .btn-red {
   background-color: rgba(232, 70, 16, 0.7);
   border-color: none;
@@ -121,22 +107,10 @@ h6 {
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e84610' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
-
-/* .carousel-control-prev-icon-white {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fafafa' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-} */
-
-/* .carousel-control-next-icon-white {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fafafa' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-} */
 /* /End of Credit */
 
 .carousel-indicators li {
   background-color: #e84610;
-}
-
-.carousel-indicators-white li {
-  /* background-color: #fafafa; */
 }
 
 .carousel-item-next,
@@ -168,7 +142,6 @@ footer ul li {
   display: inline-block;
   font-size: 1.5rem;
   margin-right: 1rem;
-  text-decoration: none;
 }
 
 footer a {
@@ -444,7 +417,7 @@ footer a:hover {
 
 /* -------------------- Media Query: Desktop Size -------------------- */
 @media only screen and (min-width: 991.8px) {
-  /* ---------- All: Header */
+/* ---------- All: Header */
   .navbar-brand {
     width: 45%;
   }
@@ -460,12 +433,12 @@ footer a:hover {
     text-align: right;
   }
 
-    /* ---------- Home: Sections Courses / Accommodation / Feedback */  
-    .section-article-home p {
-      min-height: 15rem;
-    }  
+  /* ---------- Home: Sections Courses / Accommodation / Feedback */
+  .section-article-home p {
+    min-height: 15rem;
+  }  
   
-    .feedback-individual-lg img {
+  .feedback-individual-lg img {
     padding: 2rem 0;
     width: 7rem;
   }
@@ -479,8 +452,6 @@ footer a:hover {
   #courses-image, 
   #accommodation-image {
     height: 37.5rem;
-    /* margin: 4rem auto 0; */
-    /* width: 50rem; */
   }
 
   .carousel-control-prev,
@@ -489,7 +460,6 @@ footer a:hover {
   }
 
   .carousel-indicators {
-
     top: 34rem;
   }  
   
@@ -506,6 +476,21 @@ footer a:hover {
   }
 
 }
+
+/* -------------------- Media Query: Extra Large -------------------- */
+@media only screen and (min-width: 1443.8px) {
+  body {
+    border: 1px solid #065446;
+  }
+
+  .section-extra-large {
+    margin: 0;
+  }
+
+}
+  
+
+
 
 
 
