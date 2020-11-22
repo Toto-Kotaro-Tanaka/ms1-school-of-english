@@ -65,10 +65,10 @@ All pages are designed with the same header and footer so that users can get fam
 ### Skeleton Plane
 Mobile first design and there are wireframes of Home, Courses, Accommodation and Register for mobile, tablet and desktop sizes.
 
-* [Wireframes: Home](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/home.png)
-* [Wireframes: Courses](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/courses.png)
-* [Wireframes: Accommodation](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/accommodation.png)
-* [Wireframes: Register](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/register.png)
+* [Wireframes: Home](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframe-home.png)
+* [Wireframes: Courses](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframe-courses.png)
+* [Wireframes: Accommodation](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframe-accommodation.png)
+* [Wireframes: Register](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframe-register.png)
 
 **Note:**
 I changed the design on courses.index and acoommodation.index for all the sizes. I put the slideshow above courses and accommodation details so that they look same as index.html and this was better layout than the original plan on my wireframes.
@@ -115,31 +115,31 @@ As I mentioned on **Structure Plane** I revisited the colour of header.
 
 ## Testing
 ### Pre-Testing
-This purpose is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.</br>
-#### Code Validation
-[Markup Validation Service](https://validator.w3.org/) is used to check any issues on html files
+This purpose is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.</br></br>
+**`Code Validation`** </br></br>
+**[Markup Validation Service](https://validator.w3.org/)** is used to check any issues on html files
 
-##### 3 errors found on index.html
-1. Stray end tag **i**: There are two closing tabs of **i** for font-awsome icon. Fixted the issue by removing one of the closing tag
-2. Same as above in the different line
-3. "aria-describedby" attribute doesn't point to an element in the same document: Fixed the issue by putting the id in the same element
-These errors are on header and modal form that are being used on all the pages so I changed fixed these on all the pages before testing other pages
+<ins>[3 errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins></br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Stray end tag **i**: There are two closing tabs of **i** for font-awsome icon. Fixted the issue by removing one of the closing tag</br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. Same as above in the different line</br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;3. "aria-describedby" attribute doesn't point to an element in the same document: Fixed the issue by putting the id in the same element</br></br>
+*These errors are on header and modal form that are being used on all the pages so I changed fixed these on all the pages before testing other pages*
 
-##### 1 warning found on courses.html
-1. "section lacks heading": I use **section** for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn's sure if I need to use other semantic element or **div** for this so I asked the question in Slack community and I was told "this is a warning and it's usually ok"
+<ins>[1 warning found on courses.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-courses-html-error.png)</ins></br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;1. "section lacks heading": I use **section** for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn's sure if I need to use other semantic element or **div** for this so I asked the question in Slack community and I was told "this is a warning and it's usually ok"
 
-##### 1 warning found on accommodation.html
-1. Same as above as accommodation.html and courses.html have same format
+<ins>[1 warning found on accommodation.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-accommodation-html-error.png)</ins></br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;1. Same as above as accommodation.html and courses.html have same format
 
-##### 7 errors and 1 warning on register.html
-1. "Stray end tag **span**": There was end tag of **span** on home of navbar. Fixed this by puttig on register of navbar
-2. "End tag a violates nesting rules":  Fixed by putting **span** in this element
-3. "The first child **option** element of a **select** element with a **required** attribute, and without a **multiple** attribute, and without a **size** attribute whose value is greater than **1**, must have either an empty **value** attribute, or must have no text content. Consider either adding a placeholder option label, or adding a **size** attribute with a value equal to the number of **option** elements": Fixed by adding size="13" on **select** tag. Errors from **4 - 6** are also same issue.
-7. "Duplicate ID": Fixed by replacing another id, which is register-email, for email id on the registration form
-8. "The first occurrence of ID email was here": Same isssue as above and fixed by putting a new id, register-email
+<ins>[7 errors and 1 warning on register.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-register-html-errors.png)</ins></br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;1. "Stray end tag **span**": There was end tag of **span** on home of navbar. Fixed this by puttig on register of navbar</br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;2. "End tag a violates nesting rules":  Fixed by putting **span** in this element</br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;3. "The first child **option** element of a **select** element with a **required** attribute, and without a **multiple** attribute, and without a **size** attribute whose value is greater than **1**, must have either an empty **value** attribute, or must have no text content. Consider either adding a placeholder option label, or adding a **size** attribute with a value equal to the number of **option** elements": Fixed by adding size="13" on **select** tag. Errors from **4 - 6** are also same issue.</br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;7. "Duplicate ID": Fixed by replacing another id, which is register-email, for email id on the registration form</br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;8. "The first occurrence of ID email was here": Same isssue as above and fixed by putting a new id, register-email</br></br>
 
-[CSS Validation Service](https://jigsaw.w3.org/css-validator/) is used to check any issues on css file
-##### No error or warning found
+**[CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file</></br>
+<ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-css.png)</ins></br></br>
 
 ## Project Barriers & Solutions
 To be modified↓
