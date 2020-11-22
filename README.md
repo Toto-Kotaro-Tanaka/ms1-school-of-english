@@ -119,27 +119,32 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 **`Code Validation`** </br></br>
 **[Markup Validation Service](https://validator.w3.org/)** is used to check any issues on html files
 
-<ins>[3 errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins></br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;1. Stray end tag **i**: There are two closing tabs of **i** for font-awsome icon. Fixted the issue by removing one of the closing tag</br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;2. Same as above in the different line</br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;3. "aria-describedby" attribute doesn't point to an element in the same document: Fixed the issue by putting the id in the same element</br></br>
-*These errors are on header and modal form that are being used on all the pages so I changed fixed these on all the pages before testing other pages*
+<ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins>
+1. "Stray end tag **i**": There were two closing tabs of **i** for font-awsome icon. Fixted the issue by removing one of the closing tags
+2. Same as above in the different line
+3. "**aria-describedby** attribute doesn't point to an element in the same document": Fixed the issue by putting the id in the same element
+*These errors were on header and modal form that are being used on all the pages so I fixed these on all the pages before testing other pages*
 
-<ins>[1 warning found on courses.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-courses-html-error.png)</ins></br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;1. "section lacks heading": I use **section** for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn's sure if I need to use other semantic element or **div** for this so I asked the question in Slack community and I was told "this is a warning and it's usually ok"
+<ins>[One warning found on courses.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-courses-html-error.png)</ins>
+1. "section lacks heading": I use **section** for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn's sure if I need to use other semantic element or **div** for this, I asked the question in Slack community and I was told "this is a warning and it's usually ok"
 
-<ins>[1 warning found on accommodation.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-accommodation-html-error.png)</ins></br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;1. Same as above as accommodation.html and courses.html have same format
+<ins>[One warning found on accommodation.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-accommodation-html-error.png)</ins>
+1. Same as warning on courses.html
 
-<ins>[7 errors and 1 warning on register.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-register-html-errors.png)</ins></br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;1. "Stray end tag **span**": There was end tag of **span** on home of navbar. Fixed this by puttig on register of navbar</br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;2. "End tag a violates nesting rules":  Fixed by putting **span** in this element</br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;3. "The first child **option** element of a **select** element with a **required** attribute, and without a **multiple** attribute, and without a **size** attribute whose value is greater than **1**, must have either an empty **value** attribute, or must have no text content. Consider either adding a placeholder option label, or adding a **size** attribute with a value equal to the number of **option** elements": Fixed by adding size="13" on **select** tag. Errors from **4 - 6** are also same issue.</br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;7. "Duplicate ID": Fixed by replacing another id, which is register-email, for email id on the registration form</br></br>
-&nbsp;&nbsp;&nbsp;&nbsp;8. "The first occurrence of ID email was here": Same isssue as above and fixed by putting a new id, register-email</br></br>
+<ins>[Seven errors and One warning on register.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-register-html-errors.png)</ins>
+1. "Stray end tag **span**": There was end tag of **span** on home of navbar. Fixed this by puttig on register of navbar
+2. "End tag a violates nesting rules":  Fixed by putting **span** in this element
+3. "The first child **option** element of a **select** element with a **required** attribute, and without a **multiple** attribute, and without a **size** attribute whose value is greater than **1**, must have either an empty **value** attribute, or must have no text content. Consider either adding a placeholder option label, or adding a **size** attribute with a value equal to the number of **option** elements": Fixed by adding ~~size="13" on **select** tag~~*. Errors from **4 - 6** are also same issue.
+4. Same as 3 in different field
+5. Same as 3 in different field
+6. Same as 3 in different field
+7. "Duplicate ID": Fixed by replacing another id, which is register-email, for email id on the registration form
+8. "The first occurrence of ID email was here": Same isssue as above and fixed by putting a new id, register-email
 
-**[CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file</></br>
-<ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-css.png)</ins></br></br>
+**Note:** Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I gooled the issue and found that I needed to put **value** of disable option to **none**(value="").
+
+**[CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file</br></br>
+<ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-css.png)</ins>
 
 ## Project Barriers & Solutions
 To be modified↓
