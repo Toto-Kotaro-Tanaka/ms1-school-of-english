@@ -136,6 +136,7 @@ These errors are on header and modal form that are being used on all the pages s
 8. "The first occurrence of ID email was here": Same isssue as above and fixed by putting a new id, register-email
 
 [CSS Validation Service](https://jigsaw.w3.org/css-validator/) is used to check any issues on css file
+1. No error or warning found
 
 
 ## Project Barriers & Solutions
