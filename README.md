@@ -131,7 +131,8 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 <ins>[One warning found on accommodation.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-accommodation-html-error.png)</ins>
 1. Same as warning on courses.html
 
-<ins>[Seven errors and One warning on register.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-register-html-errors.png)</ins>
+<ins>[Seven errors and One warning on register.html(error 1 - 5)](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-register-html-errors1-5.png)</ins></br>
+<ins>[error 6 - 8](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-register-html-errors6-8.png)
 1. "Stray end tag **span**": There was end tag of **span** on home of navbar. Fixed this by puttig on register of navbar
 2. "End tag a violates nesting rules":  Fixed by putting **span** in this element
 3. "The first child **option** element of a **select** element with a **required** attribute, and without a **multiple** attribute, and without a **size** attribute whose value is greater than **1**, must have either an empty **value** attribute, or must have no text content. Consider either adding a placeholder option label, or adding a **size** attribute with a value equal to the number of **option** elements": Fixed by adding ~~size="13" on **select** tag~~*. Errors from **4 - 6** are also same issue.
