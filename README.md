@@ -112,32 +112,31 @@ As I mentioned on **Structure Plane** I revisited the colour of header.
 
 ## Testing
 ### Pre-Testing
-This purpose is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website. 
-**`Code Validation`**
+This purpose is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.</br>
+**`Code Validation`**</br>
 [Markup Validation Service](https://validator.w3.org/) is used to check any issues on html files
 
-**3 errors found on index.html**
-1. Stray end tag </i>: There are two closing tabs of </i> for font-awsome icon. Fixted the issue by removing one of the closing tag
+#### 3 errors found on index.html
+1. Stray end tag **i**: There are two closing tabs of **i** for font-awsome icon. Fixted the issue by removing one of the closing tag
 2. Same as above in the different line
 3. "aria-describedby" attribute doesn't point to an element in the same document: Fixed the issue by putting the id in the same element
 These errors are on header and modal form that are being used on all the pages so I changed fixed these on all the pages before testing other pages
 
-**1 warning found on courses.html**
-1. "section lacks heading": I use <section> for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn's sure if I need to use other semantic element or <div> for this so I asked the question in Slack community and I was told "this is a warning and it's usually ok"
+#### 1 warning found on courses.html
+1. "section lacks heading": I use **section** for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn's sure if I need to use other semantic element or **div** for this so I asked the question in Slack community and I was told "this is a warning and it's usually ok"
 
-**1 warning found on accommodation.html**
+#### 1 warning found on accommodation.html
 1. Same as above as accommodation.html and courses.html have same format
 
-**7 errors and 1 warning on register.html**
-1. "Stray end tag </span>": There was end tag of </span> on home of navbar. Fixed this by puttig on register of navbar
-2. "End tag a violates nesting rules":  Fixed by putting </span> in this element
-3. "The first child **option** element of a **select** element with a **required** attribute, and without a **multiple** attribute, and without a **size** attribute whose value is greater than **1**, must have either an empty **value** attribute, or must have no text content. Consider either adding a placeholder option label, or adding a **size** attribute with a value equal to the number of **option** elements": Fixed by adding size="13" on <select> tag. Errors from **4 - 6** are also same issue.
+#### 7 errors and 1 warning on register.html
+1. "Stray end tag **span**": There was end tag of **span** on home of navbar. Fixed this by puttig on register of navbar
+2. "End tag a violates nesting rules":  Fixed by putting **span** in this element
+3. "The first child **option** element of a **select** element with a **required** attribute, and without a **multiple** attribute, and without a **size** attribute whose value is greater than **1**, must have either an empty **value** attribute, or must have no text content. Consider either adding a placeholder option label, or adding a **size** attribute with a value equal to the number of **option** elements": Fixed by adding size="13" on **select** tag. Errors from **4 - 6** are also same issue.
 7. "Duplicate ID": Fixed by replacing another id, which is register-email, for email id on the registration form
 8. "The first occurrence of ID email was here": Same isssue as above and fixed by putting a new id, register-email
 
 [CSS Validation Service](https://jigsaw.w3.org/css-validator/) is used to check any issues on css file
-1. No error or warning found
-
+#### No error or warning found
 
 ## Project Barriers & Solutions
 To be modified↓
