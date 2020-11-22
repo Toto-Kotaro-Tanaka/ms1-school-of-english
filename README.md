@@ -60,7 +60,7 @@ All pages are designed with the same header and footer so that users can get fam
 ~~Green~~ Off white* is used for header and green is for footer, white for body and orange for buttons.
 
 **Note:**
-*When I started coding, I felt Dark Green (#065446), that I was going to use initially, on the header was too strong, therefore I used #fafafa as background colour of header with font colour of Dark Green (#065446). I also decided to add contact section on top of the page so Dark Green is used for this.  
+**When I started coding, I felt Dark Green (#065446), that I was going to use initially, on the header was too strong, therefore I used #fafafa as background colour of header with font colour of Dark Green (#065446). I also decided to add contact section on top of the page so Dark Green is used for this.*  
 
 ### Skeleton Plane
 Mobile first design and there are wireframes of Home, Courses, Accommodation and Register for mobile, tablet and desktop sizes.
@@ -71,14 +71,14 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 * [Wireframes: Register](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframe-register.png)
 
 **Note:**
-I changed the design on courses.index and acoommodation.index for all the sizes. I put the slideshow above courses and accommodation details so that they look same as index.html and this was better layout than the original plan on my wireframes.
+*I changed the design on courses.index and acoommodation.index for all the sizes. I put the slideshow above courses and accommodation details so that they look same as index.html and this was better layout than the original plan on my wireframes.*
 
 ### Surface Plane
 #### Colour
 **`Dark Green (#065446)`** is the school colour ~~so this colour is used for header and footer~~ and it is used for main text and background of headings. Background colour is white and orange is used for buttons. Irish flag is imaged for colour coordinations.
 
 **Note**
-As I mentioned on **Structure Plane** I revisited the colour of header. 
+*As I mentioned on **Structure Plane** I revisited the colour of header.* 
 
 #### Typography
 **`Serif`** type (Noto Serif) is used for headings to make the website trustful as this is for education. On the other hand, **`San-Serif`** type (Open Sans) is used for contents to make the website easy to read and give friendly atmosphere to the users.
@@ -119,20 +119,20 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 **`Code Validation`** </br></br>
 **[Markup Validation Service](https://validator.w3.org/)** is used to check any issues on html files
 
-<ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins>
+<ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-index-html.png)</ins>
 1. "Stray end tag **i**": There were two closing tabs of **i** for font-awsome icon. Fixted the issue by removing one of the closing tags
 2. Same as above in the different line
 3. "**aria-describedby** attribute doesn't point to an element in the same document": Fixed the issue by putting the id in the same element
 *These errors were on header and modal form that are being used on all the pages so I fixed these on all the pages before testing other pages*
 
-<ins>[One warning found on courses.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-courses-html-error.png)</ins>
+<ins>[One warning found on courses.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-courses-html.png)</ins>
 1. "section lacks heading": I use **section** for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn's sure if I need to use other semantic element or **div** for this, I asked the question in Slack community and I was told "this is a warning and it's usually ok"
 
-<ins>[One warning found on accommodation.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-accommodation-html-error.png)</ins>
+<ins>[One warning found on accommodation.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-accommodation-html.png)</ins>
 1. Same as warning on courses.html
 
-<ins>[Seven errors and One warning on register.html(error 1 - 5)](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-register-html-errors1-5.png)</ins></br>
-<ins>[error 6 - 8](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-register-html-errors6-8.png)
+<ins>[Seven errors and One warning on register.html (error 1 - 5)](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-register-html-1-5.png)</ins></br>
+<ins>[error and warning 6 - 8](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-register-html-6-8.png)
 1. "Stray end tag **span**": There was end tag of **span** on home of navbar. Fixed this by puttig on register of navbar
 2. "End tag a violates nesting rules":  Fixed by putting **span** in this element
 3. "The first child **option** element of a **select** element with a **required** attribute, and without a **multiple** attribute, and without a **size** attribute whose value is greater than **1**, must have either an empty **value** attribute, or must have no text content. Consider either adding a placeholder option label, or adding a **size** attribute with a value equal to the number of **option** elements": Fixed by adding ~~size="13" on **select** tag~~*. Errors from **4 - 6** are also same issue.
@@ -142,10 +142,45 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 7. "Duplicate ID": Fixed by replacing another id, which is register-email, for email id on the registration form
 8. "The first occurrence of ID email was here": Same isssue as above and fixed by putting a new id, register-email
 
-**Note:** Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I gooled the issue and found that I needed to put **value** of disable option to **none**(value="").
+**Note:** *Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I gooled the issue and found that I needed to put **value** of disable option to **none**(value="").*
 
 **[CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file</br></br>
 <ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-css.png)</ins>
+
+**`Performance, Accessibility, User Experience`** </br></br>
+**[Lighthouse](https://validator.w3.org/)** is used to check common issues that affect on my site performance, accessibility and user experience. Issues anything below 90 is looked at.
+
+<ins>[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins>
+* **Performance 73:** I thought I could fix this by reducing the size of images but it hasn't so need to keep this on hold as there are some other issues that I don't have time to look at for the moment 
+* **Accessibility 95:** OK
+* **Best Practices 86:** Fixed by adding rel="noopener" on a tag which has _blank. Also, removed one of javaScript that I copied from Font Awesome CDN that didn't need to be on index.html
+* **SEO 92:** OK
+* **Overall 73**
+
+<ins>[index.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins>
+* **Performance 92:** OK 
+* **Accessibility 95:** OK
+* **Best Practices 93:** OK 
+* **SEO 90:** OK
+* **Overall 92**
+
+<ins>[courses.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins>
+* **Performance 94:** OK
+* **Accessibility 95:** OK
+* **Best Practices 93:** OK 
+* **SEO 92:** OK
+* **Overall 94**
+
+<ins>[courses.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins>
+* **Performance 100:** OK
+* **Accessibility 95:** OK
+* **Best Practices 93:** OK 
+* **SEO 90:** OK
+* **Overall 100**
+
+**Note:**
+*For both mobile and desktop versions of courses.html, I knew that there were some same issues as index.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test*
+
 
 ## Project Barriers & Solutions
 To be modified↓

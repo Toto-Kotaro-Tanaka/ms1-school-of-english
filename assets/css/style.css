@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
 
 body {
-  background-color: #fafafa;
+  background-color: #fff;
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
   max-width: 90rem;
@@ -28,10 +28,12 @@ body {
 }
 
 .navbar-brand {
+  height: auto;
   width: 75%;
 }
 
 #logo img {
+  height: auto;
   width: 100%;
 }
 
@@ -198,7 +200,7 @@ footer a:hover {
 
 /* ---------- Home: Sections Courses / Accommodation / Feedback */
 .section-style {
-  background-color: #f1f1f1;
+  background-color: #fafafa;
   text-align: center;
 }
 
@@ -225,6 +227,8 @@ footer a:hover {
 }
 
 .feedback-individual img {
+  border-radius: 50%;
+  height: auto;
   padding: 1rem 0;
   width: 6.3rem;
 }
@@ -293,6 +297,7 @@ footer a:hover {
   }  
 
   #logo img {
+    height: auto;
     width: 70%;
   }
 
@@ -367,6 +372,7 @@ footer a:hover {
   }
 
   .feedback-individual img {
+    height: auto;
     padding: 2rem 0;
     width: 9.5rem;
   }
@@ -419,10 +425,12 @@ footer a:hover {
 @media only screen and (min-width: 991.8px) {
 /* ---------- All: Header */
   .navbar-brand {
+    height: auto;
     width: 45%;
   }
 
   #logo img {
+    height: auto;
     width: 80%;
   }  
 
@@ -439,6 +447,8 @@ footer a:hover {
   }  
   
   .feedback-individual-lg img {
+    border-radius: 50%;
+    height: auto;
     padding: 2rem 0;
     width: 7rem;
   }
