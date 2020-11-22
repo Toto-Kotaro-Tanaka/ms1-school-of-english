@@ -150,32 +150,32 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 **`Performance, Accessibility, User Experience`** </br></br>
 **[Lighthouse](https://validator.w3.org/)** is used to check common issues that affect on my site performance, accessibility and user experience. Issues anything below 90 is looked at.
 
-<ins>[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins>
-* **Performance 73:** I thought I could fix this by reducing the size of images but it hasn't so need to keep this on hold as there are some other issues that I don't have time to look at for the moment 
-* **Accessibility 95:** OK
-* **Best Practices 86:** Fixed by adding rel="noopener" on a tag which has _blank. Also, removed one of javaScript that I copied from Font Awesome CDN that didn't need to be on index.html
-* **SEO 92:** OK
+<ins>[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-index.png)</ins>
+* Performance 73: I thought I could fix this by reducing the size of images but it hasn't so need to keep this on hold as there are some other issues that I don't have time to look at for the moment 
+* Accessibility 95: OK
+* Best Practices 86: Fixed by adding rel="noopener" on a tag which has _blank. Also, removed one of javaScript that I copied from Font Awesome CDN that didn't need to be on index.html
+* SEO 92: OK
 * **Overall 73**
 
-<ins>[index.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins>
-* **Performance 92:** OK 
-* **Accessibility 95:** OK
-* **Best Practices 93:** OK 
-* **SEO 90:** OK
+<ins>[index.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-desktop-index.png)</ins>
+* Performance 92: OK 
+* Accessibility 95 OK
+* Best Practices 93: OK 
+* SEO 90: OK
 * **Overall 92**
 
-<ins>[courses.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins>
-* **Performance 94:** OK
-* **Accessibility 95:** OK
-* **Best Practices 93:** OK 
-* **SEO 92:** OK
+<ins>[courses.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-course.png)</ins>
+* Performance 94: OK
+* Accessibility 95: OK
+* Best Practices 93: OK 
+* SEO 92: OK
 * **Overall 94**
 
-<ins>[courses.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-index-html-errors.png)</ins>
-* **Performance 100:** OK
-* **Accessibility 95:** OK
-* **Best Practices 93:** OK 
-* **SEO 90:** OK
+<ins>[courses.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-desktop-courses.png)</ins>
+* Performance 100: OK
+* Accessibility 95: OK
+* Best Practices 93: OK 
+* SEO 90: OK
 * **Overall 100**
 
 **Note:**
