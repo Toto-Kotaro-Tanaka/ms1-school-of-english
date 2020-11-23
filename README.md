@@ -117,7 +117,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 ### Pre-Testing
 This purpose is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.</br></br>
 **`Code Validation`** </br></br>
-**[Markup Validation Service](https://validator.w3.org/)** is used to check any issues on html files
+**[W3C Markup Validation Service](https://validator.w3.org/)** is used to check any issues on html files
 
 <ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-index-html.png)</ins>
 1. "Stray end tag **i**": There were two closing tabs of **i** for font-awsome icon. Fixted the issue by removing one of the closing tags
@@ -144,11 +144,11 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 
 **Note:** *Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I gooled the issue and found that I needed to put **value** of disable option to **none**(value="").*
 
-**[CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file</br></br>
-<ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-testing-css.png)</ins>
+**[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file</br></br>
+<ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-css.png)</ins>
 
 **`Performance, Accessibility, User Experience`** </br></br>
-**[Lighthouse](https://validator.w3.org/)** is used to check common issues that affect on my site performance, accessibility and user experience. Issues anything below 90 is looked at.
+**[Lighthouse](https://validator.w3.org/)** is used to check common issues that affect on my site performance, accessibility and user experience. Issues anything below 90 is addressed.
 
 <ins>[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-index.png)</ins>
 * Performance 73: I thought I could fix this by reducing the size of images but it hasn't so need to keep this on hold as there are some other issues that I don't have time to look at for the moment 
@@ -180,6 +180,37 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 
 **Note:**
 *For both mobile and desktop versions of courses.html, I knew that there were some same issues as index.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test*
+
+<ins>[accommodation.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-accommodation.png)</ins>
+* Performance 60: I thought the size of images were the issues. Even I reduced the size of images, it gave low score with some other issues so these need to be looked at.
+* Accessibility 95: OK
+* Best Practices 100: OK 
+* SEO 92: OK
+* **Overall 60**
+
+<ins>[accommodation.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-desktop-accommodation.png)</ins>
+* Performance 100: OK
+* Accessibility 95: OK
+* Best Practices 93: OK 
+* SEO 90: OK
+* **Overall 100**
+
+**Note:**
+*For both mobile and desktop versions of accommodation.html, I knew that there were some same issues as courses.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test. For some reason, perfomance on mobile is not high although it is same as courses andn I reduced the size of images.*
+
+<ins>[register.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-register.png)</ins>
+* Performance 93: OK
+* Accessibility 85: Fixed by changing the colour of label from gray to dark green
+* Best Practices 93: OK 
+* SEO 90: OK
+* **Overall 93**
+
+<ins>[register.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-desktop-register.png)</ins>
+* Performance 98: OK
+* Accessibility 85: Fixed by changing the colour of label from gray to dark green
+* Best Practices 93: OK 
+* SEO 90: OK
+* **Overall 98**
 
 
 ## Project Barriers & Solutions

@@ -77,7 +77,6 @@ h6 {
 /* ---------- All: Buttons */
 .btn-red {
   background-color: rgba(232, 70, 16, 0.7);
-  /* border-color: none; */
   border-radius: 1.9rem;
   color: #fafafa;
   height: 2.5rem;
@@ -266,10 +265,6 @@ footer a:hover {
 }
 
 /* ---------- Register: Section Register */
-#register {
-  color: #898b8a;
-}
-
 .border-register {
   margin: 0;
 }
@@ -284,6 +279,10 @@ footer a:hover {
 #register p {
   color: #065446;
   text-align: center;
+}
+
+#register label {
+  color: #065446;
 }
 
 /* -------------------- Media Query: Tablet Size -------------------- */
