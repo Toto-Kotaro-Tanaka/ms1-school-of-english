@@ -182,7 +182,7 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 *For both mobile and desktop versions of courses.html, I knew that there were some same issues as index.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test*
 
 <ins>[accommodation.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-accommodation.png)</ins>
-* Performance 60: I thought the size of images were the issues. Even I reduced the size of images, it gave low score with some other issues so these need to be looked at.
+* Performance 60: It seems Performance on Lighthouse changes every time. (It may depend on the speed of broadband?) Fixed the issue by reducing the size of images, however this gave an issue for the perfomance on desktop size as I got a warning saying low resolution image is being used for the first photo so I had to adjust the size of this photo and test it.
 * Accessibility 95: OK
 * Best Practices 100: OK 
 * SEO 92: OK
@@ -211,7 +211,6 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 * Best Practices 93: OK 
 * SEO 90: OK
 * **Overall 98**
-
 
 ## Project Barriers & Solutions
 To be modified↓
