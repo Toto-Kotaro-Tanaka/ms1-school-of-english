@@ -53,7 +53,7 @@ Outlining the details of each course with a link to the price list. There are im
 Outlining the details of each accommodation with a link to the price list. There are image galleries of the accommodation. Same layout as Courses.
 
 **`Register`**
-Online registration form (static form) that is kept simple. Some fields have drowp down menu to make users life easier.
+Online registration form (static form) that is kept simple. Some fields have drop down menu to make users life easier.
 
 **`Header & Footer`**
 All pages are designed with the same header and footer so that users can get familiar with the website quickly. There is a navigation bar on the header which includes logo and menu. School's details and social icons are on the footer.
@@ -71,7 +71,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 * [Wireframes: Register](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframe-register.png)
 
 **Note:**
-*I changed the design on courses.index and acoommodation.index for all the sizes. I put the slideshow above courses and accommodation details so that they look same as index.html and this was better layout than the original plan on my wireframes.*
+*I changed the design on courses.index and accommodation.index for all the sizes. I put the slideshow above courses and accommodation details so that they look same as index.html and this was better layout than the original plan on my wireframes.*
 
 ### Surface Plane
 #### Colour
@@ -86,14 +86,14 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 ## Features
 ### Existing Features
 * Created with HTML5, CSS3, Bootstrap
-* It consits of 4 individual pages plus a price list as separate link page
+* It consists of 4 individual pages plus a price list as separate link page
 * Manual carousel for gallaries
 * Modal for contact form
 
 ### Features Left To Implement
 * To prevent contact us form being sent unless e-mail addresses match. As far as I understand, javaScript is required for this
-* To have more modern calendar which also have only weekends hilited to be selected. Not sure how this can be done for the moment. I didn't have enought time to look into more details
-* Nationality and Language drop down menu options. More nationalities and languages need to be added but I am not sure if I need to put all the nationalitis and languages to have this on html or if there is a better way of doing it. I don't have enought time to look into more details
+* To have more modern calendar which also have only weekends highlighted to be selected. Not sure how this can be done for the moment. I didn't have enough time to look into more details
+* Nationality and Language drop down menu options. More nationalities and languages need to be added but I am not sure if I need to put all the nationalities and languages to have this on html or if there is a better way of doing it. I don't have enough time to look into more details
 
 ## Technologies Used
 * HTML5 for markup
@@ -119,14 +119,14 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 **`Code Validation`** </br></br>
 **[W3C Markup Validation Service](https://validator.w3.org/)** is used to check any issues on html files
 
-<ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-index-html.png)</ins>
-1. "Stray end tag **i**": There were two closing tabs of **i** for font-awsome icon. Fixted the issue by removing one of the closing tags
+<ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3c-index-html.png)</ins>
+1. "Stray end tag **i**": There were two closing tabs of **i** for Font Awesome icon. Fixed the issue by removing one of the closing tags
 2. Same as above in the different line
 3. "**aria-describedby** attribute doesn't point to an element in the same document": Fixed the issue by putting the id in the same element
 *These errors were on header and modal form that are being used on all the pages so I fixed these on all the pages before testing other pages*
 
 <ins>[One warning found on courses.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-courses-html.png)</ins>
-1. "section lacks heading": I use **section** for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn's sure if I need to use other semantic element or **div** for this, I asked the question in Slack community and I was told "this is a warning and it's usually ok"
+1. "section lacks heading": I use **section** for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn't sure if I need to use other semantic element or **div** for this, I asked the question in Slack community and I was told "this is a warning and it's usually ok"
 
 <ins>[One warning found on accommodation.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-accommodation-html.png)</ins>
 1. Same as warning on courses.html
@@ -140,9 +140,9 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 5. Same as 3 in different field
 6. Same as 3 in different field
 7. "Duplicate ID": Fixed by replacing another id, which is register-email, for email id on the registration form
-8. "The first occurrence of ID email was here": Same isssue as above and fixed by putting a new id, register-email
+8. "The first occurrence of ID email was here": Same issue as above and fixed by putting a new id, register-email
 
-**Note:** *Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I gooled the issue and found that I needed to put **value** of disable option to **none**(value="").*
+**Note:** *Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I googled the issue and found that I needed to put **value** of disable option to **none**(value="").*
 
 **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file</br></br>
 <ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3-css.png)</ins>
@@ -182,7 +182,7 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 *For both mobile and desktop versions of courses.html, I knew that there were some same issues as index.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test*
 
 <ins>[accommodation.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-accommodation.png)</ins>
-* Performance 60: It seems Performance on Lighthouse changes every time. (It may depend on the speed of broadband?) Fixed the issue by reducing the size of images, however this gave an issue for the perfomance on desktop size as I got a warning saying low resolution image is being used for the first photo so I had to adjust the size of this photo and test it.
+* Performance 60: It seems **Performance** on Lighthouse changes every time. (It may depend on the speed of broadband?) Fixed the issue by reducing the size of images, however this gave an issue for the performance on desktop size as I got a warning saying low resolution image is being used for the first photo so I had to adjust the size of this photo and test it.
 * Accessibility 95: OK
 * Best Practices 100: OK 
 * SEO 92: OK
@@ -196,7 +196,7 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 * **Overall 100**
 
 **Note:**
-*For both mobile and desktop versions of accommodation.html, I knew that there were some same issues as courses.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test. For some reason, perfomance on mobile is not high although it is same as courses andn I reduced the size of images.*
+*For both mobile and desktop versions of accommodation.html, I knew that there were some same issues as courses.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test. For some reason, performance on mobile is not high although it is same as courses and I reduced the size of images.*
 
 <ins>[register.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-register.png)</ins>
 * Performance 93: OK
@@ -207,7 +207,7 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 
 <ins>[register.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-desktop-register.png)</ins>
 * Performance 98: OK
-* Accessibility 85: Fixed by changing the colour of label from gray to dark green
+* Accessibility 85: Fixed by changing the colour of label from grey to dark green
 * Best Practices 93: OK 
 * SEO 90: OK
 * **Overall 98**
@@ -217,7 +217,7 @@ To be modified↓
 I had some difficulties to customise hamburger menu (removing border colour and changing colour of three lines) so I looked up on goole
 I want to add more nationalities and languages on registration form
 I want to style date picker
-When I set up max width of 90rem and tring to put borders around, courses and accommodation sections were expanded more than 100% which I think due to Bootstrap default setting
+When I set up max width of 90rem and trying to put borders around, courses and accommodation sections were expanded more than 100% which I think due to Bootstrap default setting
 
 ## Version Control
 To be added as project goes on
@@ -229,7 +229,7 @@ To be added as project goes on
 ### code
 **`HTML5`**
 * [Bootstrap Navbar](https://getbootstrap.com/docs/4.5/components/navbar/) for navigation bar
-* [Bootstrap Carousel](https://getbootstrap.com/docs/4.3/components/carousel/) for feedback and image gallaries
+* [Bootstrap Carousel](https://getbootstrap.com/docs/4.3/components/carousel/) for feedback and image galleries
 * [Bootstrap Modal](https://getbootstrap.com/docs/4.5/components/modal/) for contact form
 * [Bootstrap Forms](https://getbootstrap.com/docs/4.5/components/forms/) for registration form and form on modal
 
