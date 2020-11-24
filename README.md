@@ -115,9 +115,10 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 
 ## Testing
 ### Pre-Testing
-This purpose is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.</br></br>
-**`Code Validation`** </br></br>
-**[W3C Markup Validation Service](https://validator.w3.org/)** is used to check any issues on html files
+This purpose is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.
+
+#### Code Validation
+**[W3C Markup Validation Service](https://validator.w3.org/)** is used to check any issues on html files.
 
 <ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3c-index-html.jpg)</ins>
 1. "Stray end tag **i**": There were two closing tabs of **i** for Font Awesome icon. Fixed the issue by removing one of the closing tags
@@ -144,73 +145,65 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 
 **Note:** *Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I googled the issue and found that I needed to put **value** of disable option to **none**(value="").*
 
-**[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file</br></br>
+**[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file.
 <ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-w3c-css.jpg)</ins>
 
-**`Performance, Accessibility, User Experience`** </br></br>
-**[Lighthouse](https://validator.w3.org/)** is used to check common issues that affect on my site performance, accessibility and user experience. Issues anything below 90 is addressed.
+#### Performance, Accessibility, User Experience
+**[Lighthouse](https://developers.google.com/web/tools/lighthouse)** is used to check common issues that affect on my site performance, accessibility and user experience. Issues anything below 90 is addressed.
 
 <ins>[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-index.jpg)</ins>
-* Performance 73: I thought I could fix this by reducing the size of images but it hasn't so need to keep this on hold as there are some other issues that I don't have time to look at for the moment 
-* Accessibility 95: OK
-* Best Practices 86: Fixed by adding rel="noopener" on a tag which has _blank. Also, removed one of javaScript that I copied from Font Awesome CDN that didn't need to be on index.html
-* SEO 92: OK
-* **Overall 73**
+* **Performance 73:** I thought I could fix this by reducing the size of images but it hasn't so need to keep this on hold as there are some other issues that I don't have time to look at for the moment 
+* **Accessibility 95:** OK
+* **Best Practices 86:** Fixed by adding rel="noopener" on a tag which has _blank. Also, removed one of javaScript that I copied from Font Awesome CDN that didn't need to be on index.html
+* **SEO 92:** OK
 
 <ins>[index.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-desktop-index.jpg)</ins>
-* Performance 92: OK 
-* Accessibility 95 OK
-* Best Practices 93: OK 
-* SEO 90: OK
-* **Overall 92**
+* **Performance 92:** OK 
+* **Accessibility 95** OK
+* **Best Practices 93:** OK 
+* **SEO 90:** OK
 
 <ins>[courses.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-course.jpg)</ins>
-* Performance 94: OK
-* Accessibility 95: OK
-* Best Practices 93: OK 
-* SEO 92: OK
-* **Overall 94**
+* **Performance 94:** OK
+* **Accessibility 95:** OK
+* **Best Practices 93:** OK 
+* **SEO 92:** OK
 
 <ins>[courses.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-desktop-courses.jpg)</ins>
-* Performance 100: OK
-* Accessibility 95: OK
-* Best Practices 93: OK 
-* SEO 90: OK
-* **Overall 100**
+* **Performance 100:** OK
+* **Accessibility 95:** OK
+* **Best Practices 93:** OK 
+* **SEO 90:** OK
 
 **Note:**
 *For both mobile and desktop versions of courses.html, I knew that there were some same issues as index.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test*
 
 <ins>[accommodation.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-accommodation.jpg)</ins>
-* Performance 60: It seems **Performance** on Lighthouse changes every time. (It may depend on the speed of broadband?) Fixed the issue by reducing the size of images, however this gave an issue for the performance on desktop size as I got a warning saying low resolution image is being used for the first photo so I had to adjust the size of this photo and test it.
-* Accessibility 95: OK
-* Best Practices 100: OK 
-* SEO 92: OK
-* **Overall 60**
+* **Performance 60:** It seems **Performance** on Lighthouse changes every time. (It may depend on the speed of broadband?) Fixed the issue by reducing the size of images, however this gave an issue for the performance on desktop size as I got a warning saying low resolution image is being used for the first photo so I had to adjust the size of this photo and test it.
+* **Accessibility 95:** OK
+* **Best Practices 100:** OK 
+* **SEO 92:** OK
 
 <ins>[accommodation.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-desktop-accommodation.jpg)</ins>
-* Performance 100: OK
-* Accessibility 95: OK
-* Best Practices 93: OK 
-* SEO 90: OK
-* **Overall 100**
+* **Performance 100:** OK
+* **Accessibility 95:** OK
+* **Best Practices 93:** OK 
+* **SEO 90:** OK
 
 **Note:**
 *For both mobile and desktop versions of accommodation.html, I knew that there were some same issues as courses.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test. For some reason, performance on mobile is not high although it is same as courses and I reduced the size of images.*
 
 <ins>[register.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-mobile-register.jpg)</ins>
-* Performance 93: OK
-* Accessibility 85: Fixed by changing the colour of label from gray to dark green
-* Best Practices 93: OK 
-* SEO 90: OK
-* **Overall 93**
+* **Performance 93:** OK
+* **Accessibility 85:** Fixed by changing the colour of label from gray to dark green
+* **Best Practices 93:** OK 
+* **SEO 90:** OK
 
 <ins>[register.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test-lighthouse-desktop-register.jpg)</ins>
-* Performance 98: OK
-* Accessibility 85: Fixed by changing the colour of label from grey to dark green
-* Best Practices 93: OK 
-* SEO 90: OK
-* **Overall 98**
+* **Performance 98:** OK
+* **Accessibility 85:** Fixed by changing the colour of label from grey to dark green
+* **Best Practices 93:** OK 
+* **SEO 90:** OK
 
 ## Project Barriers & Solutions
 To be modified↓
