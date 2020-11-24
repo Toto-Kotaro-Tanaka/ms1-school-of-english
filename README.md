@@ -1,7 +1,6 @@
 ![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/images/logo/school-logo-readme.png)
 
-# School of English Galway 
-(web needs to be linked↑)
+# [School of English Galway](https://toto-kotaro-tanaka.github.io/ms1-school-of-english/)
 
 This is a website of an imaginary English Language School based in Galway, Ireland that I create for **Milestone Project 1, Full Stack Software Development in Code Institute**.
 
@@ -35,9 +34,10 @@ Below tables show what should be included on the website to make the website val
 ### Scope Plane
 Features to be included on this project are;
 
-- Image galleries using carousel. 5 images of courses and 5 images of accommodation.
-- PDF price list is linked with menu and buttons, which open in a separate tab.
-- Online registration form (static form) that users can access from the menu bar.
+* Image galleries using carousel. 5 images of courses and 5 images of accommodation
+* PDF price list is linked with menu and buttons, which open in a separate tab
+* Online registration form (static form) that users can access from the menu bar
+* Contact form with modal that users can access from header and footer (Added as additional feature while creating the website)
 
 ### Structure Plane
 The website consists of 4 pages (Home, Course, Accommodation, Register) plus price list as a separate link. Everything is laid out logically so that users can easily predict and learn about the website.
@@ -57,10 +57,10 @@ Online registration form (static form) that is kept simple. Some fields have dro
 
 **`Header & Footer`**
 All pages are designed with the same header and footer so that users can get familiar with the website quickly. There is a navigation bar on the header which includes logo and menu. School's details and social icons are on the footer.
-~~Green~~ Off white* is used for header and green is for footer, white for body and orange for buttons.
+~~Green~~ Off white* is used for header and green is used for footer, white for body and orange for buttons.
 
 **Note:**
-**When I started coding, I felt Dark Green (#065446), that I was going to use initially, on the header was too strong, therefore I used #fafafa as background colour of header with font colour of Dark Green (#065446). I also decided to add contact section on top of the page so Dark Green is used for this.*  
+**When I started coding, I felt Dark Green (#065446), that I was going to use initially on the header, was too strong, therefore I used off white (#fafafa) as background colour of header with font colour of Dark Green (#065446). I also decided to add contact section on top of the page so Dark Green is used for this.*  
 
 ### Skeleton Plane
 Mobile first design and there are wireframes of Home, Courses, Accommodation and Register for mobile, tablet and desktop sizes.
@@ -71,13 +71,13 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 * [Wireframes: Register](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframes/wireframe-register.png)
 
 **Note:**
-*I changed the design on courses.index and accommodation.index for all the sizes. I put the slideshow above courses and accommodation details so that they look same as index.html and this was better layout than the original plan on my wireframes.*
+*I changed the design on courses.index and accommodation.index for all the sizes. I put the gallaries above courses and accommodation details so that they look same as index.html and this was better layout than the original plan on my wireframes.*
 
 ### Surface Plane
 #### Colour
 **`Dark Green (#065446)`** is the school colour ~~so this colour is used for header and footer~~ and it is used for main text and background of headings. Background colour is white and orange is used for buttons. Irish flag is imaged for colour coordinations.
 
-**Note**
+**Note:**
 *As I mentioned on **Structure Plane** I revisited the colour of header.* 
 
 #### Typography
@@ -92,11 +92,11 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 
 ### Features Left To Implement
 * To prevent contact us form being sent unless e-mail addresses match. As far as I understand, javaScript is required for this
-* To have more modern calendar which also have only weekends highlighted to be selected. Not sure how this can be done for the moment. I didn't have enough time to look into more details
+* To have more modern calendar which also have only weekends highlighted to be selected. Not sure how this can be done and for the moment, I didn't have enough time to look into more details
 * Nationality and Language drop down menu options. More nationalities and languages need to be added but I am not sure if I need to put all the nationalities and languages to have this on html or if there is a better way of doing it. I don't have enough time to look into more details
 
 ## Technologies Used
-* HTML5 for markup
+* ![Image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/html.png) HTML5 for markup
 * CSS3 for style
 * Google Fonts for fonts
 * Bootstrap for main frame of the website
