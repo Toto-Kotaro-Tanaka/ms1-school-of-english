@@ -145,7 +145,7 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 
 **Note:** *Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I googled the issue and found that I needed to put **value** of disable option to **none**(value="").*
 
-**[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file.
+**[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file.</br></br>
 <ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-css.jpg)</ins>
 
 #### Performance, Accessibility, User Experience

@@ -173,7 +173,7 @@ footer a:hover {
 
 /* ---------- Home: Section Hero Image */
 #hero-image {
-  background: url(/assets/images/logo/school.jpg) no-repeat;
+  background: url(../images/logo/school.jpg) no-repeat;
   background-size: cover;
   height: 37.5rem;
   position: relative;
@@ -286,7 +286,7 @@ footer a:hover {
 }
 
 /* -------------------- Media Query: Tablet Size -------------------- */
-@media only screen and (min-width: 767.8px) {
+@media only screen and (min-width: 48rem) {
 
   /* ---------- All: Header */
   #contact-us-header {
@@ -421,7 +421,7 @@ footer a:hover {
 }
 
 /* -------------------- Media Query: Desktop Size -------------------- */
-@media only screen and (min-width: 991.8px) {
+@media only screen and (min-width: 62rem) {
 /* ---------- All: Header */
   .navbar-brand {
     height: auto;
@@ -435,7 +435,7 @@ footer a:hover {
 
   #navbarNav {
     position: absolute;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     right: 0;
     text-align: right;
   }
@@ -487,7 +487,7 @@ footer a:hover {
 }
 
 /* -------------------- Media Query: Extra Large -------------------- */
-@media only screen and (min-width: 1443.8px) {
+@media only screen and (min-width: 90.25rem) {
   body {
     border: 1px solid #065446;
   }
