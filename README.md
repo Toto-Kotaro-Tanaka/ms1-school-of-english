@@ -71,7 +71,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 * [Wireframes: Register](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/wireframes/wireframe-register.png)
 
 **Note:**
-*I changed the design on courses.index and accommodation.index for all the sizes. I put the gallaries above courses and accommodation details so that they look same as index.html and this was better layout than the original plan on my wireframes.*
+*I changed the design on courses.index and accommodation.index for all the sizes. I put the galleries above courses and accommodation details so that they look same as index.html and this was better layout than the original plan on my wireframes.*
 
 ### Surface Plane
 #### Colour
@@ -87,7 +87,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 ### Existing Features
 * Created with HTML5, CSS3, Bootstrap
 * It consists of 4 individual pages plus a price list as separate link page
-* Manual carousel for gallaries
+* Manual carousel for galleries
 * Modal for contact form
 
 ### Features Left To Implement
@@ -96,52 +96,55 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 * Nationality and Language drop down menu options. More nationalities and languages need to be added but I am not sure if I need to put all the nationalities and languages to have this on html or if there is a better way of doing it. I don't have enough time to look into more details
 
 ## Technologies Used
-* ![Image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/html.png) HTML5 for markup
-* CSS3 for style
-* Google Fonts for fonts
-* Bootstrap for main frame of the website
-* Font Awesome for icons
-* Visual Studio Code as IDE
-* Git for version control
-* GitHub for keeping the files and documents
+* **[HTML5](https://en.wikipedia.org/wiki/HTML)** for markup
+* **[CSS3](https://en.wikipedia.org/wiki/CSS)** for style
+* **[Google Fonts](https://fonts.google.com/)** for fonts
+* **[Bootstrap](https://getbootstrap.com/)** for main frame of the website
+* **[Font Awesome](https://fontawesome.com/)** for icons
+* **[Visual Studio Code](https://code.visualstudio.com/)** as Integrated Development Environment(IDE)
+* **[Git](https://git-scm.com/)** for version control
+* **[GitHub](https://github.com/)** for keeping the files, documents and deploy the website
 
 ## Resources
 ### General Resources
 * Code Institute course materials
-* Code Institute Slack Community  
-* [W3schools](https://www.w3schools.com/)
+* Code Institute Slack Community
 * [MDN](https://developer.mozilla.org/en-US/)
+* [Stackoverflow](https://stackoverflow.com/)
 * [Youtube](https://www.youtube.com/)
+* [W3schools](https://www.w3schools.com/)
 
 ## Testing
 ### Pre-Testing
-This purpose is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.
+The purpose of this is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.
 
 #### Code Validation
 **[W3C Markup Validation Service](https://validator.w3.org/)** is used to check any issues on html files.
 
 <ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-index-html.jpg)</ins>
-1. "Stray end tag **i**": There were two closing tabs of **i** for Font Awesome icon. Fixed the issue by removing one of the closing tags
+1. **"Stray end tag *i*":** There were two closing tabs of *i* for Font Awesome icon. Fixed the issue by removing one of the closing tags
 2. Same as above in the different line
-3. "**aria-describedby** attribute doesn't point to an element in the same document": Fixed the issue by putting the id in the same element
+3. **"*aria-describedby* attribute doesn't point to an element in the same document":** Fixed the issue by putting the id in the same element
+
+**Note:**
 *These errors were on header and modal form that are being used on all the pages so I fixed these on all the pages before testing other pages*
 
 <ins>[One warning found on courses.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-courses-html.jpg)</ins>
-1. "section lacks heading": I use **section** for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn't sure if I need to use other semantic element or **div** for this, I asked the question in Slack community and I was told "this is a warning and it's usually ok"
+1. **"section lacks heading":** I use *section* for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn't sure if I need to use other semantic element or *div* for this, I asked the question in Slack community and I was told "this is a warning and it's usually ok"
 
 <ins>[One warning found on accommodation.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-accommodation-html.jpg)</ins>
 1. Same as warning on courses.html
 
 <ins>[Seven errors and One warning on register.html (error 1 - 5)](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-register-html-1-5.jpg)</ins></br>
 <ins>[error and warning 6 - 8](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-register-html-6-8.jpg)
-1. "Stray end tag **span**": There was end tag of **span** on home of navbar. Fixed this by puttig on register of navbar
-2. "End tag a violates nesting rules":  Fixed by putting **span** in this element
-3. "The first child **option** element of a **select** element with a **required** attribute, and without a **multiple** attribute, and without a **size** attribute whose value is greater than **1**, must have either an empty **value** attribute, or must have no text content. Consider either adding a placeholder option label, or adding a **size** attribute with a value equal to the number of **option** elements": Fixed by adding ~~size="13" on **select** tag~~*. Errors from **4 - 6** are also same issue.
+1. **"Stray end tag *span*":** There was end tag of *span* on home of navbar. Fixed this by putting on register of navbar
+2. **"End tag a violates nesting rules":**  Fixed by putting *span* in this element
+3. **"The first child *option* element of a *select* element with a *required* attribute, and without a *multiple* attribute, and without a *size* attribute whose value is greater than *1*, must have either an empty *value* attribute, or must have no text content. Consider either adding a placeholder option label, or adding a *size* attribute with a value equal to the number of *option* elements":** Fixed by adding ~~size="13" on *select* tag~~. Errors from *4 - 6* are also same issue.
 4. Same as 3 in different field
 5. Same as 3 in different field
 6. Same as 3 in different field
-7. "Duplicate ID": Fixed by replacing another id, which is register-email, for email id on the registration form
-8. "The first occurrence of ID email was here": Same issue as above and fixed by putting a new id, register-email
+7. **"Duplicate ID":** Fixed by replacing another id, which is register-email, for email id on the registration form
+8. **"The first occurrence of ID email was here":** Same issue as above and fixed by putting a new id, register-email
 
 **Note:** *Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I googled the issue and found that I needed to put **value** of disable option to **none**(value="").*
 
@@ -195,7 +198,7 @@ This purpose is to fix any issues, that I can do now, before meeting my mentor t
 
 <ins>[register.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-lighthouse-mobile-register.jpg)</ins>
 * **Performance 93:** OK
-* **Accessibility 85:** Fixed by changing the colour of label from gray to dark green
+* **Accessibility 85:** Fixed by changing the colour of label from grey to dark green
 * **Best Practices 93:** OK 
 * **SEO 90:** OK
 
