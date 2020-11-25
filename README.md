@@ -98,14 +98,14 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 * Nationality and Language drop down menu options. More nationalities and languages need to be added but I am not sure if I need to put all the nationalities and languages to have this on html or if there is a better way of doing it. I don't have enough time to look into more details
 
 ## Technologies Used
-* **[HTML5](https://en.wikipedia.org/wiki/HTML)** for markup
-* **[CSS3](https://en.wikipedia.org/wiki/CSS)** for style
-* **[Google Fonts](https://fonts.google.com/)** for fonts
-* **[Bootstrap](https://getbootstrap.com/)** for main frame of the website
-* **[Font Awesome](https://fontawesome.com/)** for icons
-* **[Visual Studio Code](https://code.visualstudio.com/)** as Integrated Development Environment(IDE)
-* **[Git](https://git-scm.com/)** for version control
-* **[GitHub](https://github.com/)** for keeping the files, documents and deploy the website
+* [HTML5](https://en.wikipedia.org/wiki/HTML) for markup
+* [CSS3](https://en.wikipedia.org/wiki/CSS) for style
+* [Google Fonts](https://fonts.google.com/) for fonts
+* [Bootstrap](https://getbootstrap.com/) for main frame of the website
+* [Font Awesome](https://fontawesome.com/) for icons
+* [Visual Studio Code](https://code.visualstudio.com/) as Integrated Development Environment(IDE)
+* [Git](https://git-scm.com/) for version control
+* [GitHub](https://github.com/) for keeping the files, documents and deploy the website
 
 ## Resources
 ### General Resources
@@ -118,7 +118,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 
 ### Tools
 * [Adobe](https://www.adobe.com/ie/photoshop/online/resize-image.html) To resize images
-* [Autoprefixer](https://autoprefixer.github.io/) To parse CSS and adds vendor prefixes
+* [Autoprefixer](https://autoprefixer.github.io/) To parse CSS and add vendor prefixes
 
 ## Testing
 ### Pre-Testing
@@ -158,7 +158,7 @@ The purpose of this was to fix any errors, that I can do now, before meeting my 
 <ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-css.jpg)</ins>
 
 #### Performance, Accessibility, User Experience
-**[Lighthouse](https://developers.google.com/web/tools/lighthouse)** is used to check common issues that affect on my site performance, accessibility and user experience. Issues anything below 90 is addressed.
+**[Lighthouse](https://developers.google.com/web/tools/lighthouse)** is used to check common issues that affect on my site performance, accessibility and user experience. Issues anything below 90 was addressed.
 
 <ins>[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-lighthouse-mobile-index.jpg)</ins>
 * **Performance 73:** I thought I could fix this by reducing the size of images but it hasn't so need to keep this on hold as there are some other issues that I don't have time to look at for the moment 
@@ -218,13 +218,20 @@ The purpose of this was to fix any errors, that I can do now, before meeting my 
 The purpose of this is to make sure that my webiste is properly functioning before submitting the project.
 
 #### Code Validation
-* **[W3C Markup Validation Service](https://validator.w3.org/)** is used to check any errors on html files and I confirm that there were no errors. There was a warning on courses.html and accommodation.html but it was OK as explained on the Pre-Testing section.
+* **[W3C Markup Validation Service](https://validator.w3.org/)** is used to check any errors on html files and I confirm that there were no errors. There was a warning on courses.html and accommodation.html but it was OK as explained on the Pre-Testing section
 
-* **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any errors on css file and I confirm that there were no errors. 
+* **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any errors on css file and I confirm that there were no errors
 
 #### Performance, Accessibility, User Experience
-**[Lighthouse](https://developers.google.com/web/tools/lighthouse)** is used to check common issues that affect on my site performance, accessibility and user experience. I noticed that the results were different to Pre-Testing version that I was only testing it in local file. (It wasn't deployed yet)
-Therefore, I need to review this as some sections are below 90 and I may not be able to fix all of them. 
+* **[Lighthouse](https://developers.google.com/web/tools/lighthouse)** is used to check common issues that affect on my site performance, accessibility and user experience. Everthing was **[90+ scores](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-lighthouse.png)** except **[index.html - mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/index-mobile-errors.png)** and **[accommodation.html - desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/accommodation-desktop-error.png)**.</br>
+My mentor and I looked at the issues of index.html - mobile but we weren't able to figure out how to solve the issues. According to the report, it mentioned about links of bootstrap and CSS, that suggested that I wasn't using them, but I am. I have exactly same layout on other html files and not sure why it caused issues on only index.html - mobile so I decided to leave it.</br>
+For the other issue that The Best Practice for accommodation.html - desktop, this was caused the size of main image being low resolution. If I increase the size of the image, I'll get issues on mobile size that images are too big so I decided to leave this as it is. 
+
+### Web Browsers
+Tested in majour web browsers such as **`Google Chrom`**, **`Safari`**, **`Firefox`**, **`Microsoft Edge`**, **`Opera`** and my website worked both visually and functionally. I also tested with **`Internet Explorer 11`**. Home, Courses and Accommodation pages were fine however Register page didn't show properly. I looked up the solution but learned in Slack community that Bootstrap doesn't work well in Internet Explorer so decided to take no action about it as Internet Explorer 11 wouldn't a major web browser. (Only 2-3% users overall)
+
+### Responsiveness 
+I used **Google Chrom Dev Tools** to check the responsiveness of my website. It responded on each breakpoint that I set up on Media Query and no visual or functional errors found.   
 
 ## Project Barriers & Solutions
 I faced some difficulties and issues even before starting the project and until the end. Below are the list of them. 
@@ -245,7 +252,7 @@ I wanted to add more nationalities and languages on the list on registration for
 ## Deployment
 1. Go to **"Settings"** on the repository
 2. On **"Source"** of **"GitHub Pages"**, select **"main"** for Branch and click save
-3. The link is published and confirm above **"Source"** *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** "*</br></br>
+3. The link is published and confirm above **"Source"** *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** + /"*</br></br>
 ![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)</br></br>
 ![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy2.png)
 
