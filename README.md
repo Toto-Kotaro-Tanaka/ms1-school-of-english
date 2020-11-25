@@ -76,13 +76,13 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 *I changed the design of **Courses** and **Accommodation** for all the sizes. I put the galleries above courses and accommodation details so that they look same as **Home** and this was better layout than the original plan on my wireframes.*
 
 ### Surface Plane
-#### Colour
+#### --- Colour ---
 **`Dark Green (#065446)`** is the school colour ~~so this colour is used for header and footer~~ and it is used for main text and background of headings. Background colour is white and orange is used for buttons. Irish flag is imaged for colour coordinations.
 
 **Note:**
 *As I mentioned on **Structure Plane** I revisited the colour of header.* 
 
-#### Typography
+#### --- Typography ---
 **`Serif`** type (Noto Serif) is used for headings to make the website trustful as this is for education. On the other hand, **`San-Serif`** type (Open Sans) is used for contents to make the website easy to read and give friendly atmosphere to the users.
 
 ## Features
@@ -95,6 +95,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 ### Features Left To Implement
 * To prevent **contact us** form being sent unless e-mail addresses match. As far as I understand, javaScript is required for this
 * More modern registration form which includes better styled calendar and drop down menu. javaScript and other technology are required
+* Website in **Different Languages** and **Quotation Calculator** as mentioned on Strategy Plane
 
 ## Technologies Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML) for markup
@@ -123,7 +124,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 ### Pre-Testing
 The purpose of this was to fix any errors before the second meeting, that was planned almost end of completion of my website, with my mentor.
 
-#### - Code Validation -
+#### --- Code Validation ---
 **[W3C Markup Validation Service](https://validator.w3.org/)** was used to check any errors on html files.
 
 <ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-index-html.jpg)</ins>
@@ -156,7 +157,7 @@ The purpose of this was to fix any errors before the second meeting, that was pl
 **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** was used to check any errors on css file.</br></br>
 <ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-css.jpg)</ins>
 
-#### - Performance, Accessibility, User Experience -
+#### --- Performance, Accessibility, User Experience ---
 **[Lighthouse](https://developers.google.com/web/tools/lighthouse)** was used to check common issues that affect on my site performance, accessibility and user experience. Issues anything below 90 were addressed.
 
 <ins>[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-lighthouse-mobile-index.jpg)</ins>
@@ -219,17 +220,17 @@ The purpose of this was to fix any errors before the second meeting, that was pl
 ### Final Testing
 The purpose of this was to make sure that my website was properly functioning before submitting the project.
 
-#### - Code Validation -
+#### --- Code Validation ---
 * **[W3C Markup Validation Service](https://validator.w3.org/)** was used to check any errors on html files. I confirm that there were no errors as some issues were fixed at Pre-Testing point. There was a warning on courses.html and accommodation.html but it was OK as explained on the Pre-Testing section
 
 * **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** was used to check any errors on css file. I confirm that there were no errors which same result as Pre-Testing
 
-#### - Performance, Accessibility, User Experience -
+#### --- Performance, Accessibility, User Experience ---
 * **[Lighthouse](https://developers.google.com/web/tools/lighthouse)** was used to check common issues that affect on my site performance, accessibility and user experience. Everthing was **[90+ scores](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/lighthouse.png)** except **[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/index-mobile-errors.png)** and **[accommodation.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/accommodation-desktop-error.png)**.</br>
 My mentor and I looked at the issues of **index.html - Mobile** but we weren't able to figure out how to solve the issues. According to the report, it mentioned about links of bootstrap and CSS, that suggested that I wasn't using them, but I actually was. I have exactly same layout on other html files and not sure why it caused issues on only **index.html - Mobile** so I had to leave it.</br>
 For the other issue that **The Best Practice** for **accommodation.html - Desktop**, this was caused by the size of main image being low resolution. If I increased the size of the image, it would raise issues on mobile size, that images would be too big so I decided to leave this as it is
 
-#### - Web Browsers -
+#### --- Web Browsers ---
 * Tested in majour web browsers such as **Google Chrom**, **Safari**, **Firefox**, **Microsoft Edge**, **Opera** and the website worked both visually and functionally. I also tested with **Internet Explorer 11**. Home, Courses and Accommodation pages were fine however Register page didn't show properly. I looked up the solution but learned in Slack community that Bootstrap doesn't work well in Internet Explorer so decided to take no action about it as Internet Explorer 11 wouldn't a major web browser. (Only 2-3% users overall)
 
 ### Responsiveness 
@@ -255,10 +256,9 @@ I wanted to add more nationalities and languages on the list on registration for
 To deploy the website, I followed the below steps.
 1. Go to **"Settings"** on the repository
 2. On **"Source"** of **"GitHub Pages"**, select **"main"** for Branch and click save
-3. The link is published and confirm above **"Source"**.</br> *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** + /"*</></br>
-![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)</br></br>
+3. The link is published and confirm above **"Source"**.</br> *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** + /"*</br>
+![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)</br></br></br>
 ![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy2.png)
-
 
 ## Credits
 ### code
