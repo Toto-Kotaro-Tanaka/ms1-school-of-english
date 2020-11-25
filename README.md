@@ -226,16 +226,16 @@ I wanted to add more nationalities and languages on the list on registration for
 * **New features:** There were some new features that I had never used. For example, README was one of them and it took sometime for me to get used to write in markdown. I learned it by looking up it on google as well as by writing as much as possible
 
 ## Version Control
-**`Git`**
+### Git
 * Git was used to commit the changes. Whenever I completed a section or even a group of work, I committed them in order to make sure that the history of the records are properly logged in, as this is an essential practice for developers
-**`GitHub`**
-* GitHub was used to store all the records of my work
+### GitHub
+* GitHub was used to store all the folders and files of my project
 
 ## Deployment
 1. Go to **"Settings"** on the repository
 2. On **"Source"** of **"GitHub Pages"**, select **"main"** for Branch and click save
-3. The link is published and confirm above **"Source"** *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** "*
-![Image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)
+3. The link is published and confirm above **"Source"** *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** "*</br>
+![Image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)</br>
 ![Image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy2.png)
 
 
