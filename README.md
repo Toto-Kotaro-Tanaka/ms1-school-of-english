@@ -2,9 +2,9 @@
 
 # [School of English Galway](https://toto-kotaro-tanaka.github.io/ms1-school-of-english/)
 
-This is a website of an imaginary English Language School based in Galway, Ireland that I create for **Milestone Project 1, Full Stack Software Development in Code Institute**.
+This is a website of an imaginary English Language School based in Galway, Ireland that I create for **Milestone Project 1, Full Stack Software Development in Code Institute**. </br> It is **Mobile First** & **Responsive** website.</br>
 
-![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/mockup.png)(https://toto-kotaro-tanaka.github.io/ms1-school-of-english/)
+![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/mockup.png)</br>
 
 ## Who's this website for?
 People whose first language is <ins>NOT</ins> English and who are looking for a school to improve their English for various purposes, as well as who would like to have some experiences living in a foreign country while they study English. They could be from anywhere in the world so some might know about Galway / Ireland quite well and some might not. User's goals are to be able to find out core information about the school, such as location, courses, accommodation, prices and feedback from the former students in order to make up their mind, and to be able to contact the school or make a booking without any difficulties if they wish to do so.
@@ -122,15 +122,15 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 
 ## Testing
 ### Pre-Testing
-The purpose of this is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.
+The purpose of this was to fix any errors, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.
 
 #### Code Validation
-**[W3C Markup Validation Service](https://validator.w3.org/)** is used to check any issues on html files.
+**[W3C Markup Validation Service](https://validator.w3.org/)** is used to check any errors on html files.
 
 <ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-index-html.jpg)</ins>
-1. **"Stray end tag *i*":** There were two closing tabs of *i* for Font Awesome icon. Fixed the issue by removing one of the closing tags
+1. **"Stray end tag *i*":** There were two closing tabs of *i* for Font Awesome icon. Fixed the errors by removing one of the closing tags
 2. Same as above in the different line
-3. **"*aria-describedby* attribute doesn't point to an element in the same document":** Fixed the issue by putting the id in the same element
+3. **"*aria-describedby* attribute doesn't point to an element in the same document":** Fixed the errors by putting the id in the same element
 
 **Note:**
 *These errors were on header and modal form that are being used on all the pages so I fixed these on all the pages before testing other pages*
@@ -145,16 +145,16 @@ The purpose of this is to fix any issues, that I can do now, before meeting my m
 <ins>[error and warning 6 - 8](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-register-html-6-8.jpg)
 1. **"Stray end tag *span*":** There was end tag of *span* on home of navbar. Fixed this by putting on register of navbar
 2. **"End tag a violates nesting rules":**  Fixed by putting *span* in this element
-3. **"The first child *option* element of a *select* element with a *required* attribute, and without a *multiple* attribute, and without a *size* attribute whose value is greater than *1*, must have either an empty *value* attribute, or must have no text content. Consider either adding a placeholder option label, or adding a *size* attribute with a value equal to the number of *option* elements":** Fixed by adding ~~size="13" on *select* tag~~. Errors from *4 - 6* are also same issue.
+3. **"The first child *option* element of a *select* element with a *required* attribute, and without a *multiple* attribute, and without a *size* attribute whose value is greater than *1*, must have either an empty *value* attribute, or must have no text content. Consider either adding a placeholder option label, or adding a *size* attribute with a value equal to the number of *option* elements":** Fixed by adding ~~size="13" on *select* tag~~. Errors from *4 - 6* are also same errors.
 4. Same as 3 in different field
 5. Same as 3 in different field
 6. Same as 3 in different field
 7. **"Duplicate ID":** Fixed by replacing another id, which is register-email, for email id on the registration form
-8. **"The first occurrence of ID email was here":** Same issue as above and fixed by putting a new id, register-email
+8. **"The first occurrence of ID email was here":** Same errors as above and fixed by putting a new id, register-email
 
 **Note:** *Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I googled the issue and found that I needed to put **value** of disable option to **none**(value="").*
 
-**[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any issues on css file.</br></br>
+**[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any errors on css file.</br></br>
 <ins>[No error or warning found](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/pre-test/pre-test-w3c-css.jpg)</ins>
 
 #### Performance, Accessibility, User Experience
@@ -216,6 +216,15 @@ The purpose of this is to fix any issues, that I can do now, before meeting my m
 
 ### Final Testing
 The purpose of this is to make sure that my webiste is properly functioning before submitting the project.
+
+#### Code Validation
+* **[W3C Markup Validation Service](https://validator.w3.org/)** is used to check any errors on html files and I confirm that there were no errors. There was a warning on courses.html and accommodation.html but it was OK as explained on the Pre-Testing section.
+
+* **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** is used to check any errors on css file and I confirm that there were no errors. 
+
+#### Performance, Accessibility, User Experience
+**[Lighthouse](https://developers.google.com/web/tools/lighthouse)** is used to check common issues that affect on my site performance, accessibility and user experience. I noticed that the results were different to Pre-Testing version that I was only testing it in local file. (It wasn't deployed yet)
+Therefore, I need to review this as some sections are below 90 and I may not be able to fix all of them. 
 
 ## Project Barriers & Solutions
 I faced some difficulties and issues even before starting the project and until the end. Below are the list of them. 
@@ -289,7 +298,7 @@ I wanted to add more nationalities and languages on the list on registration for
 
 ### Acknowledgements
 I would like to thank ;
-* My mentor, **Spencer Barriball** who went throught the project with me and assured that I was doing right
-* **Jim Lynx** whose "MS1 planning" session video gave me clear guidance and got me start the project
-* **Anna Greaves** whose "README" session video gave me ideas of how to write README
-* **Code Institute Slack Members** who answered my queries to complete the project  
+* My mentor, **Spencer Barriball**, who went throught the project with me and assured that I was doing right
+* **Jim Lynx** whose ["MS1 planning"](https://www.youtube.com/watch?v=sH0m9N875SU&feature=youtu.be) session video gave me clear guidance and got me start the project
+* **Anna Greaves** whose ["README"](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be) session video gave me ideas of how to write README
+* **Code Institute Slack Members** who answered my queries during the project  

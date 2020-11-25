@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
 
 body {
@@ -66,7 +73,8 @@ body {
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   outline: none;
 }
 
@@ -100,7 +108,8 @@ h6 {
 }
 
 .btn:focus {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .btn-margin {
@@ -125,7 +134,11 @@ h6 {
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  -o-transition: transform 1s ease;
   transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 
 /* ---------- All: Footer */
@@ -176,7 +189,8 @@ footer a:hover {
 
 .form-control:focus {
   border-color: #ced4da;
-  box-shadow: 0 0 0 0.2rem rgba(232, 70, 16, 0.2);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(232, 70, 16, 0.2);
+          box-shadow: 0 0 0 0.2rem rgba(232, 70, 16, 0.2);
 }
 
 /* ---------- Home: Section Hero Image */
