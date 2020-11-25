@@ -7,6 +7,14 @@ body {
   max-width: 90rem;
 }
 
+.row {
+  margin: 0;
+}
+
+.col-md-6 {
+  padding: 0;
+}
+
 /* ---------- All: Header */
 #contact-us-header {
   background-color: #065446;
@@ -214,7 +222,7 @@ footer a:hover {
 .section-style p {
   color: #065446;
   font-size: 0.9rem;
-  padding: 1.6rem 1.3rem;
+  padding: 1.6rem;
 }
 
 .btn-home-section {
