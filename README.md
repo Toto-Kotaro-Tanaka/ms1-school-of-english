@@ -10,6 +10,9 @@ People whose first language is <ins>NOT</ins> English and who are looking for a 
 ## Who is the owner?
 The owner of the language school. Owner's goals are to increase the number of direct students (direct sales) as currently a lot of students come from agents that they work with.
 
+## Mobile First & Responsive Website
+![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)(https://toto-kotaro-tanaka.github.io/ms1-school-of-english/)
+
 ## UX 5 Planes
 ### Strategy Plane
 As users are non-native English speakers, **keeping the website simple** is essential and **using more visual contents** than text contents would help them to understand the information easily. It targets business-to-consumer (B2C) so all the information must be clear and well presented.
@@ -234,9 +237,9 @@ I wanted to add more nationalities and languages on the list on registration for
 ## Deployment
 1. Go to **"Settings"** on the repository
 2. On **"Source"** of **"GitHub Pages"**, select **"main"** for Branch and click save
-3. The link is published and confirm above **"Source"** *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** "*</br>
-![Image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)</br>
-![Image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy2.png)
+3. The link is published and confirm above **"Source"** *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** "*</br></br>
+![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)</br></br>
+![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy2.png)
 
 
 ## Credits
@@ -286,3 +289,8 @@ I wanted to add more nationalities and languages on the list on registration for
 * accommodation5: [Unsplash](https://unsplash.com/) by [Raphael Schaller](https://unsplash.com/photos/Cz_Xbm3Jyyw)
 
 ### Acknowledgements
+I would like to thank ;
+* My mentor, **Spencer Barriball** who went throught the project with me and assured that I was doing right
+* **Jim Lynx** whose "MS1 planning" session video gave me clear guidance and got me start the project
+* **Anna Greaves** whose "README" session video gave me ideas of how to write README
+* **Code Institute Slack Members** who answered my queries to complete the project  
