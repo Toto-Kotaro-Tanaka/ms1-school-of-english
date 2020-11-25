@@ -114,6 +114,10 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 * [Youtube](https://www.youtube.com/)
 * [W3schools](https://www.w3schools.com/)
 
+### Tools
+* [Adobe](https://www.adobe.com/ie/photoshop/online/resize-image.html) To resize images
+* [Autoprefixer](https://autoprefixer.github.io/) To parse CSS and adds vendor prefixes
+
 ## Testing
 ### Pre-Testing
 The purpose of this is to fix any issues, that I can do now, before meeting my mentor to see if there is anything needs to be improved on my website.
@@ -208,18 +212,32 @@ The purpose of this is to fix any issues, that I can do now, before meeting my m
 * **Best Practices 93:** OK 
 * **SEO 90:** OK
 
+### Final Testing
+The purpose of this is to make sure that my webiste is properly functioning before submitting the project.
+
 ## Project Barriers & Solutions
-To be modified↓
-I had some difficulties to customise hamburger menu (removing border colour and changing colour of three lines) so I looked up on goole
-I want to add more nationalities and languages on registration form
-I want to style date picker
-When I set up max width of 90rem and trying to put borders around, courses and accommodation sections were expanded more than 100% which I think due to Bootstrap default setting
+I faced some difficulties and issues even before starting the project and until the end. Below are the list of them. 
+* **Starting the project:** As I had never created a proper website by myself, I wasn't sure how and where to start, although I took the lessons to prepare for this. What I did to solve this was to watch two sessions ([MS1 Planning Session](https://www.youtube.com/watch?v=sH0m9N875SU&feature=youtu.be) by Jim Lynx) & ([README Video](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be) by Anna Greaves) to be confident and ready for the project
+* **Customising humberger menu:** I used quite basic HTML and CSS so I didn't have many coding issues, however customising humberger menu, that I had thought it was straight forward enough, wasn't easy to do so I had to look up solutions on google 
+* **List on form:**
+I wanted to add more nationalities and languages on the list on registration form. The only option I could think of was to manually add them on HTML. I was looking for better option / solution but couldn't find any other than a list of template which includes all the countries. As this website is my project in the institute, I decided to keep nationalities and languages as they are
+* **Date picker:** I wanted to style date picker on the registration form however it seems javaScript is required for this so decided to leave it for the moment
+* **Bootstrap default margin and padding:** When I set up max width of 90rem and trying to put borders around the website, courses and accommodation sections were expanded more than 100% which I think it was caused by Bootstrap's default setting so I used Chrom Dev Tools and Toggle Pesticide to see where the issues were and fixed them
+* **New features:** There were some new features that I had never used. For example, README was one of them and it took sometime for me to get used to write in markdown. I learned it by looking up it on google as well as by writing as much as possible
 
 ## Version Control
-To be added as project goes on
+**`Git`**
+* Git was used to commit the changes. Whenever I completed a section or even a group of work, I committed them in order to make sure that the history of the records are properly logged in, as this is an essential practice for developers
+**`GitHub`**
+* GitHub was used to store all the records of my work
 
 ## Deployment
-To be added as project goes on
+1. Go to **"Settings"** on the repository
+2. On **"Source"** of **"GitHub Pages"**, select **"main"** for Branch and click save
+3. The link is published and confirm above **"Source"** *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** "*
+![Image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)
+![Image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy2.png)
+
 
 ## Credits
 ### code
@@ -244,27 +262,27 @@ To be added as project goes on
 * Created by me using [Wix Logo maker](https://www.wix.com/logo/maker)
 
 **`Hero Image`**
-* [unsplash](https://unsplash.com/) by [Ryan Jacobson](https://unsplash.com/photos/cXUOQWdRV4I)
+* [Unsplash](https://unsplash.com/) by [Ryan Jacobson](https://unsplash.com/photos/cXUOQWdRV4I)
 
 **`Feedback Images`**
-* feedback1: [unsplash](https://unsplash.com/) by [Icons8 Team](https://unsplash.com/photos/FcLyt7lW5wg)
-* feedback2: [unsplash](https://unsplash.com/) by [Johm Kan](https://unsplash.com/photos/71NgiXcdTzE)
-* feedback3: [unsplash](https://unsplash.com/) by [Lars Zhang](https://unsplash.com/photos/bd-tuYm6WWs)
-* feedback4: [unsplash](https://unsplash.com/) by [Tamarcus Brown](https://unsplash.com/photos/29pFbI_D1Sc)
-* feedback5: [unsplash](https://unsplash.com/) by [Irene Strong](https://unsplash.com/photos/MgvAATOwJBc)
+* feedback1: [Unsplash](https://unsplash.com/) by [Icons8 Team](https://unsplash.com/photos/FcLyt7lW5wg)
+* feedback2: [Unsplash](https://unsplash.com/) by [Johm Kan](https://unsplash.com/photos/71NgiXcdTzE)
+* feedback3: [Unsplash](https://unsplash.com/) by [Lars Zhang](https://unsplash.com/photos/bd-tuYm6WWs)
+* feedback4: [Unsplash](https://unsplash.com/) by [Tamarcus Brown](https://unsplash.com/photos/29pFbI_D1Sc)
+* feedback5: [Unsplash](https://unsplash.com/) by [Irene Strong](https://unsplash.com/photos/MgvAATOwJBc)
 
 **`Courses Images`**
-* courses1: [unsplash](https://unsplash.com/) by [Windows](https://unsplash.com/photos/kRWY72TKB0Y)
-* courses2: [unsplash](https://unsplash.com/) by [You X Ventures](https://unsplash.com/photos/Oalh2MojUuk)
-* courses3: [unsplash](https://unsplash.com/) by [ThisiEnginneringRAEng](https://unsplash.com/photos/TXxiFuQLBKQ)
-* courses4: [unsplash](https://unsplash.com/) by [Devon Divine](https://unsplash.com/photos/Hzp-1ua8DVE)
-* courses5: [unsplash](https://unsplash.com/) by [M. Monk](https://unsplash.com/photos/E813FON0wDQ)
+* courses1: [Unsplash](https://unsplash.com/) by [Windows](https://unsplash.com/photos/kRWY72TKB0Y)
+* courses2: [Unsplash](https://unsplash.com/) by [You X Ventures](https://unsplash.com/photos/Oalh2MojUuk)
+* courses3: [Unsplash](https://unsplash.com/) by [ThisiEnginneringRAEng](https://unsplash.com/photos/TXxiFuQLBKQ)
+* courses4: [Unsplash](https://unsplash.com/) by [Devon Divine](https://unsplash.com/photos/Hzp-1ua8DVE)
+* courses5: [Unsplash](https://unsplash.com/) by [M. Monk](https://unsplash.com/photos/E813FON0wDQ)
 
 **`Accommodation Images`**
-* accommodation1: [unsplash](https://unsplash.com/) by [Dimitry Anikin](https://unsplash.com/photos/IfPmy_JmIY8)
-* accommodation2: [pexels](https://www.pexels.com/) by [Askar Abayev](https://www.pexels.com/photo/group-of-people-standing-near-brown-wooden-table-5638600/)
-* accommodation3: [pexels](https://www.pexels.com/) by [Yan](https://www.pexels.com/photo/people-riding-bicycle-on-dirt-road-5792903/)
-* accommodation4: [unsplash](https://unsplash.com/) by [Edgar Castrejon](https://unsplash.com/photos/bG5rhvRH0JM)
-* accommodation5: [unsplash](https://unsplash.com/) by [Raphael Schaller](https://unsplash.com/photos/Cz_Xbm3Jyyw)
+* accommodation1: [Unsplash](https://unsplash.com/) by [Dimitry Anikin](https://unsplash.com/photos/IfPmy_JmIY8)
+* accommodation2: [Pexels](https://www.pexels.com/) by [Askar Abayev](https://www.pexels.com/photo/group-of-people-standing-near-brown-wooden-table-5638600/)
+* accommodation3: [Pexels](https://www.pexels.com/) by [Yan](https://www.pexels.com/photo/people-riding-bicycle-on-dirt-road-5792903/)
+* accommodation4: [Unsplash](https://unsplash.com/) by [Edgar Castrejon](https://unsplash.com/photos/bG5rhvRH0JM)
+* accommodation5: [Unsplash](https://unsplash.com/) by [Raphael Schaller](https://unsplash.com/photos/Cz_Xbm3Jyyw)
 
 ### Acknowledgements
