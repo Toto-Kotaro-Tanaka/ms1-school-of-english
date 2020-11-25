@@ -4,14 +4,13 @@
 
 This is a website of an imaginary English Language School based in Galway, Ireland that I create for **Milestone Project 1, Full Stack Software Development in Code Institute**.
 
+![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/mockup.png)(https://toto-kotaro-tanaka.github.io/ms1-school-of-english/)
+
 ## Who's this website for?
 People whose first language is <ins>NOT</ins> English and who are looking for a school to improve their English for various purposes, as well as who would like to have some experiences living in a foreign country while they study English. They could be from anywhere in the world so some might know about Galway / Ireland quite well and some might not. User's goals are to be able to find out core information about the school, such as location, courses, accommodation, prices and feedback from the former students in order to make up their mind, and to be able to contact the school or make a booking without any difficulties if they wish to do so.
 
 ## Who is the owner?
 The owner of the language school. Owner's goals are to increase the number of direct students (direct sales) as currently a lot of students come from agents that they work with.
-
-## Mobile First & Responsive Website
-![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)(https://toto-kotaro-tanaka.github.io/ms1-school-of-english/)
 
 ## UX 5 Planes
 ### Strategy Plane
