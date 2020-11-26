@@ -322,7 +322,7 @@ footer a:hover {
   color: #065446;
 }
 
-/* -------------------- Media Query: Tablet Size -------------------- */
+/* -------------------- Media Query: Tablet Size (768px) -------------------- */
 @media only screen and (min-width: 48rem) {
 
   /* ---------- All: Header */
@@ -457,7 +457,7 @@ footer a:hover {
   
 }
 
-/* -------------------- Media Query: Desktop Size -------------------- */
+/* -------------------- Media Query: Desktop Size (992px) -------------------- */
 @media only screen and (min-width: 62rem) {
 /* ---------- All: Header */
   .navbar-brand {
@@ -523,7 +523,7 @@ footer a:hover {
 
 }
 
-/* -------------------- Media Query: Extra Large -------------------- */
+/* -------------------- Media Query: Extra Large (1488px) -------------------- */
 @media only screen and (min-width: 93rem) {
   body {
     border: 1px solid #065446;

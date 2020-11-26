@@ -37,7 +37,7 @@ Below tables show what should be included on the website to make the website val
 Features to be included on this project are;
 
 * Image galleries using carousel. 5 images of courses and 5 images of accommodation
-* PDF price list is linked with menu and buttons, which open in a separate tab
+* PDF price list linked with menu and buttons and opens in a separate tab
 * Online registration form (static form) that users can access from the menu bar
 * Contact form with modal that users can access from header and footer (Added as additional feature while creating the website)
 
@@ -46,7 +46,7 @@ The website consists of 4 pages (Home, Courses, Accommodation, Register) plus pr
 
 **`Home page`**
 There is a hero image with school's catch phrase **"Go west... to learn English, make friends and have fun!"**.
-There are brief course & accommodation descriptions and feedback underneath hero image.
+There are brief courses and accommodation descriptions and feedback underneath hero image.
 
 **`Courses`**
 Outlining the details of each course with a link to the price list. There are image galleries of the courses. Same layout as Accommodation.
@@ -80,7 +80,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 **`Dark Green (#065446)`** is the school colour ~~so this colour is used for header and footer~~ and it is used for main text and background of headings. Background colour is white and orange is used for buttons. Irish flag is imaged for colour coordinations.
 
 **Note:**
-*As I mentioned on **Structure Plane** I revisited the colour of header.* 
+*As I mentioned on **Structure Plane**, I revisited the colour of header.* 
 
 #### --- Typography ---
 **`Serif`** type (Noto Serif) is used for headings to make the website trustful as this is for education. On the other hand, **`San-Serif`** type (Open Sans) is used for contents to make the website easy to read and give friendly atmosphere to the users.
@@ -88,13 +88,13 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 ## Features
 ### Existing Features
 * Created with HTML5, CSS3, Bootstrap
-* It consists of 4 individual pages plus a price list as separate link page
+* It consists of 4 individual pages plus a PDF price list as separate link page
 * Manual carousel for galleries
 * Modal for contact form
 
 ### Features Left To Implement
-* To prevent **contact us** form being sent unless e-mail addresses match. As far as I understand, javaScript is required for this
-* More modern registration form which includes better styled calendar and drop down menu. javaScript and other technology are required
+* To prevent **contact us** form being sent unless e-mail addresses match. As far as I understand, JavaScript is required for this so I wasn't able to put this
+* More modern registration form which includes better styled calendar and drop down menu. JavaScript and other technology are required so I wasn't able to do it
 * Website in **Different Languages** and **Quotation Calculator** as mentioned on Strategy Plane
 
 ## Technologies Used
@@ -122,7 +122,7 @@ Mobile first design and there are wireframes of Home, Courses, Accommodation and
 
 ## Testing
 ### Pre-Testing
-The purpose of this was to fix any errors before the second meeting, that was planned almost end of completion of my website, with my mentor.
+The purpose of this was to fix any errors before the second meeting with my mentor, that was planned almost end of completion of my website.
 
 #### --- Code Validation ---
 **[W3C Markup Validation Service](https://validator.w3.org/)** was used to check any errors on html files.
@@ -142,7 +142,7 @@ The purpose of this was to fix any errors before the second meeting, that was pl
 1. Same as warning on courses.html
 
 <ins>[Seven errors and One warning on register.html (error 1 - 5)](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-w3c-register-html-1-5.jpg)</ins> / 
-<ins>[error and warning 6 - 8](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-w3c-register-html-6-8.jpg)
+<ins>[(error and warning 6 - 8)](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-w3c-register-html-6-8.jpg)
 1. **"Stray end tag *span*":** There was end tag of *span* on home of navbar. Fixed this by putting on register of navbar
 2. **"End tag a violates nesting rules":**  Fixed by putting *span* in this element
 3. **"The first child *option* element of a *select* element with a *required* attribute, and without a *multiple* attribute, and without a *size* attribute whose value is greater than *1*, must have either an empty *value* attribute, or must have no text content. Consider either adding a placeholder option label, or adding a *size* attribute with a value equal to the number of *option* elements":** Fixed by adding ~~size="13" on *select* tag~~. Errors from *4 - 6* were also same errors.
@@ -150,7 +150,7 @@ The purpose of this was to fix any errors before the second meeting, that was pl
 5. Same as 3 in different field
 6. Same as 3 in different field
 7. **"Duplicate ID":** Fixed by replacing another id, which was register-email, for email id on the registration form
-8. **"The first occurrence of ID email was here":** Same errors as above and fixed by putting a new id, register-email
+8. **"The first occurrence of ID email was here":** Same error as above and fixed by putting a new id, register-email
 
 **Note:** *Adding size="13" on select tag was not the proper solution for this as all 13 options showed on the registration form. I googled the issue and found that I needed to put **value** of disable option to **none**(value="").*
 
@@ -163,11 +163,11 @@ The purpose of this was to fix any errors before the second meeting, that was pl
 <ins>[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-lighthouse-mobile-index.jpg)</ins>
 * **Performance 73:** I thought I could fix this by reducing the size of images but it didn't so need to keep this on hold as there are some other issues that I didn't have time to look at for the moment 
 * **Accessibility 95:** OK
-* **Best Practices 86:** Fixed by adding rel="noopener" on a tag which has _blank. Also, removed one of javaScript that I copied from Font Awesome CDN that didn't need to be on index.html
+* **Best Practices 86:** Fixed by adding rel="noopener" on a tag which has _blank. Also, removed one of JavaScript that I copied from Font Awesome CDN that didn't need to be on index.html
 * **SEO 92:** OK
 
 **Note:**
-*Regarding the issues of Performance, I looked these with my mentor however we weren't able to solve the issues.Please refer the final testing section for more details*
+*Regarding the issues of Performance, I looked these with my mentor however we weren't able to solve the issues. Please refer the final testing section for more details*
 
 <ins>[index.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-lighthouse-desktop-index.jpg)</ins>
 * **Performance 92:** OK 
@@ -188,7 +188,7 @@ The purpose of this was to fix any errors before the second meeting, that was pl
 * **SEO 90:** OK
 
 **Note:**
-*For both mobile and desktop versions of courses.html, I knew that there were some same issues as index.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test*
+*For both mobile and desktop versions of courses.html, I knew that there were some same issues as index.html (such as the size of images, rel="noopener", JavaScript of Font Awesome) so I fixed these first before the test*
 
 <ins>[accommodation.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-lighthouse-mobile-accommodation.jpg)</ins>
 * **Performance 60:** It seemed **Performance** on Lighthouse changes every time. (It may depend on the speed of broadband?) Fixed the issue by reducing the size of images, however this gave an issue for the performance on desktop size as I got a warning saying low resolution image was being used for the first photo so I had to adjust the size of this photo and test it.
@@ -203,7 +203,7 @@ The purpose of this was to fix any errors before the second meeting, that was pl
 * **SEO 90:** OK
 
 **Note:**
-*For both mobile and desktop versions of accommodation.html, I knew that there were some same issues as courses.html (such as the size of images, rel="noopener", javaScript of Font Awesome) so I fixed these first before the test. For some reason, performance on mobile is not high although it is same as courses and I reduced the size of images.*
+*For both mobile and desktop versions of accommodation.html, I knew that there were some same issues as courses.html (such as the size of images, rel="noopener", JavaScript of Font Awesome) so I fixed these first before the test. For some reason, performance on mobile is not high although it is same as courses and I reduced the size of images.*
 
 <ins>[register.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-lighthouse-mobile-register.jpg)</ins>
 * **Performance 93:** OK
@@ -231,19 +231,19 @@ My mentor and I looked at the issues of **index.html - Mobile** but we weren't a
 For the other issue that **The Best Practice** for **accommodation.html - Desktop**, this was caused by the size of main image being low resolution. If I increased the size of the image, it would raise issues on mobile size, that images would be too big so I decided to leave this as it is
 
 #### --- Web Browsers ---
-* Tested in major web browsers such as **Google Chrome**, **Safari**, **Firefox**, **Microsoft Edge**, **Opera** and the website worked both visually and functionally, except that **[date picker](https://www.drupal.org/project/webform/issues/3027747)** didn't show on **Safari** as it is not supported. I also tested with **Internet Explorer 11**. Home, Courses and Accommodation pages were fine however Register page didn't show properly. I looked up the solution but learned from a recent post in [Slack community](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-ie11.png) that I wouldn't need to worry about it as long as it on Microsoft Edge so decided to take no action about it
+* Tested in major web browsers such as **Google Chrome**, **Safari**, **Firefox**, **Microsoft Edge**, **Opera** and the website worked both visually and functionally, except that **[date picker](https://www.drupal.org/project/webform/issues/3027747)** didn't show on **Safari** as it is not supported. I also tested with **Internet Explorer 11**. Home, Courses and Accommodation pages were fine however Register page didn't show properly. I looked up the solution but learned from a recent post in [Slack community](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-ie11.png) that I wouldn't need to worry about it as long as it works on Microsoft Edge so decided to take no action about it
 
 #### --- Responsiveness --- 
-* I used **Google Chrome Dev Tools** to check the responsiveness of my website. I tested with mobile, tablet and desktop sizes and all worked. It also responded on each breakpoint that I set up on Media Query and no visual or functional errors found  
+* I used **Google Chrome Dev Tools** to check the responsiveness of my website. I tested with mobile, tablet and desktop sizes and all worked. It also responded on each breakpoint that I set up on Media Query ([Tablet: 48rem / 768px](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-tablet.png), [Desktop: 62rem / 992px](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-desktop.png) and [Extra Large: 93rem / 1488px](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-extra-large.png)) and no visual or functional errors found  
 
 ## Project Barriers & Solutions
 I faced some difficulties and issues before starting the project. During the project, I didn't have many difficulties or issues but spent a lot of time on something I wasn't used to doing. Below are the list of them. 
 * **Starting the project:** As I had never created a proper website by myself, I wasn't sure how and where to start, although I took the lessons to prepare for this. What I did to solve this was to watch two session videos ([MS1 Planning Session](https://www.youtube.com/watch?v=sH0m9N875SU&feature=youtu.be) by Jim Lynx) & ([README Video](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be) by Anna Greaves) repeatedly until I understood the process, got an image of it and got ready for it
 * **Customising hamburger menu:** I used quite basic HTML and CSS so I didn't have many coding issues, however customising hamburger menu, that I had thought it was straight forward enough, wasn't easy to do so I had to look up solutions on google 
 * **List on form:**
-I wanted to add more nationalities and languages on the list on registration form. The only option I could think of was to manually add them on HTML. I was looking for better option / solution but couldn't find anything other than a list of template which includes all the countries. This website is my project in the institute, I decided to keep nationalities and languages as they are instead of having so many of them on html file
-* **Date picker:** I wanted to style date picker on the registration form in a better format, however it seems javaScript is required for this so decided to leave it for the moment
-* **Bootstrap default margin and padding:** When I set up max width of 90rem and trying to put borders around the website, courses and accommodation sections were expanded more than 100% which I think it was caused by Bootstrap's default setting (margin) so I used Chrome Dev Tools and Toggle Pesticide to see where the issues were and fixed them by putting margin 0 on row class
+I wanted to add more nationalities and languages on the list on registration form. The only option I could think of was to manually add them on HTML. I was looking for better option / solution but couldn't find anything other than a list of template which includes all the countries. As this website is my project in the institute, I decided to keep nationalities and languages as they were instead of having so many of them on html file
+* **Date picker:** I wanted to style date picker on the registration form in a better format, however it seems JavaScript is required for this so decided to leave it for the moment
+* **Bootstrap default margin and padding:** When I set up max width of 93rem and trying to put borders around the website, courses and accommodation sections were expanded more than 100% which I think it was caused by Bootstrap's default setting (margin) so I used Chrome Dev Tools and Toggle Pesticide to see where the issues were and fixed them by putting margin 0 on row class
 * **New features:** There were some new features that I had never used. For example, README was one of them and it took sometime for me to get used to write in markdown. I learned it by looking up on google as well as by writing as much as possible
 
 ## Version Control
@@ -253,7 +253,7 @@ Git was used to commit the changes. Whenever I completed a section or even a gro
 GitHub was used to store all the folders and files of my project.
 
 ## Deployment
-To deploy the website, I followed the below steps.
+To deploy the website, I followed the below steps in GitHub.
 1. Go to **"Settings"** on the repository
 2. On **"Source"** of **"GitHub Pages"**, select **"main"** for Branch and click save
 3. The link is published and confirm above **"Source"**.</br> *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** + /"* </br>
@@ -262,7 +262,7 @@ To deploy the website, I followed the below steps.
 ![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy2.png)
 
 ## Credits
-### code
+### Code
 **`HTML5`**
 * [Bootstrap Navbar](https://getbootstrap.com/docs/4.5/components/navbar/) for navigation bar
 * [Bootstrap Carousel](https://getbootstrap.com/docs/4.3/components/carousel/) for feedback and image galleries
