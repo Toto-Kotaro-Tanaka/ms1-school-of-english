@@ -11,14 +11,17 @@ body {
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
-  max-width: 90rem;
+  max-width: 93rem;
 }
 
 .row {
   margin: 0;
 }
 
-.col-md-6 {
+.col-md-6,
+.col-lg-3,
+.col-lg-4,
+.col-lg-6 {
   padding: 0;
 }
 
@@ -295,6 +298,10 @@ footer a:hover {
 }
 
 /* ---------- Register: Section Register */
+.form-row {
+  margin: 0;
+}
+
 .border-register {
   margin: 0;
 }
@@ -517,7 +524,7 @@ footer a:hover {
 }
 
 /* -------------------- Media Query: Extra Large -------------------- */
-@media only screen and (min-width: 90rem) {
+@media only screen and (min-width: 93rem) {
   body {
     border: 1px solid #065446;
   }
