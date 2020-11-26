@@ -136,7 +136,7 @@ The purpose of this was to fix any errors before the second meeting, that was pl
 *These errors were on header and modal form that are being used on all the pages so I fixed these on all the pages before testing other pages*
 
 <ins>[One warning found on courses.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-w3c-courses-html.jpg)</ins>
-1. **"section lacks heading":** I used *section* for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn't sure if I needed to use other semantic element or *div* for this, I asked the question in Slack community and I was told "this is a warning and it's usually ok" so decided to leave it
+1. **"section lacks heading":** I used *section* for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn't sure if I needed to use other semantic element or *div* for this, I asked the question in Slack community and I was told ["this is a warning and it's usually ok"](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-warning.jpg) so decided to leave it
 
 <ins>[One warning found on accommodation.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-w3c-accommodation-html.jpg)</ins>
 1. Same as warning on courses.html
@@ -223,7 +223,7 @@ The purpose of this was to make sure that my website was properly functioning be
 #### --- Code Validation ---
 * **[W3C Markup Validation Service](https://validator.w3.org/)** was used to check any errors on html files. I confirm that there were no errors as some issues were fixed at Pre-Testing point. There was a warning on courses.html and accommodation.html but it was OK as explained on the Pre-Testing section
 
-* **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** was used to check any errors on css file. I confirm that there were no errors which same result as Pre-Testing
+* **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** was used to check any errors on css file. I confirm that there were no errors which were same as Pre-Testing
 
 #### --- Performance, Accessibility, User Experience ---
 * **[Lighthouse](https://developers.google.com/web/tools/lighthouse)** was used to check common issues that affect on my site performance, accessibility and user experience. Everthing was **[90+ scores](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-lighthouse.png)** except **[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-index-mobile-errors.png)** and **[accommodation.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-accommodation-desktop-error.png)**.</br>
@@ -231,7 +231,7 @@ My mentor and I looked at the issues of **index.html - Mobile** but we weren't a
 For the other issue that **The Best Practice** for **accommodation.html - Desktop**, this was caused by the size of main image being low resolution. If I increased the size of the image, it would raise issues on mobile size, that images would be too big so I decided to leave this as it is
 
 #### --- Web Browsers ---
-* Tested in majour web browsers such as **Google Chrom**, **Safari**, **Firefox**, **Microsoft Edge**, **Opera** and the website worked both visually and functionally. I also tested with **Internet Explorer 11**. Home, Courses and Accommodation pages were fine however Register page didn't show properly. I looked up the solution but learned in Slack community that Bootstrap doesn't work well in Internet Explorer so decided to take no action about it as Internet Explorer 11 wouldn't a major web browser. (Only 2-3% users overall)
+* Tested in major web browsers such as **Google Chrom**, **Safari**, **Firefox**, **Microsoft Edge**, **Opera** and the website worked both visually and functionally. I also tested with **Internet Explorer 11**. Home, Courses and Accommodation pages were fine however Register page didn't show properly. I looked up the solution but learned from a recent post in [Slack community](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-ie11.png) that I wouldn't need to worry about it as long as it on Microsoft Edge so decided to take no action about it
 
 #### --- Responsiveness --- 
 * I used **Google Chrom Dev Tools** to check the responsiveness of my website. I tested with mobile, tablet and desktop sizes and all worked. It also responded on each breakpoint that I set up on Media Query and no visual or functional errors found  
@@ -256,8 +256,8 @@ GitHub was used to store all the folders and files of my project.
 To deploy the website, I followed the below steps.
 1. Go to **"Settings"** on the repository
 2. On **"Source"** of **"GitHub Pages"**, select **"main"** for Branch and click save
-3. The link is published and confirm above **"Source"**.</br> *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** + /"* </br></br>
-(e.g. https://toto-kotaro-tanaka.github.io/ms1-school-of-english/)</br></br></br>
+3. The link is published and confirm above **"Source"**.</br> *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** + /"* </br>
+(e.g. https://toto-kotaro-tanaka.github.io/ms1-school-of-english/)</br></br>
 ![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)</br></br></br>
 ![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy2.png)
 
