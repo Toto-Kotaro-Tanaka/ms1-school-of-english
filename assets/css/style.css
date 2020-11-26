@@ -193,6 +193,14 @@ footer a:hover {
           box-shadow: 0 0 0 0.2rem rgba(232, 70, 16, 0.2);
 }
 
+.modal {
+  padding-right: 0 !important;
+}
+
+.modal-open {
+  padding-right: 0 !important;
+}
+
 /* ---------- Home: Section Hero Image */
 #hero-image {
   background: url(../images/logo/school.jpg) no-repeat;
@@ -509,17 +517,13 @@ footer a:hover {
 }
 
 /* -------------------- Media Query: Extra Large -------------------- */
-@media only screen and (min-width: 90.25rem) {
+@media only screen and (min-width: 90rem) {
   body {
     border: 1px solid #065446;
   }
 
   .section-extra-large {
     margin: 0;
-  }
-
-  .modal {
-    padding-right: 0;
   }
 
 }
