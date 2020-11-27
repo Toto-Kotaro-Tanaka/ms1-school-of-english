@@ -269,14 +269,20 @@ To deploy the website, I followed the below steps in GitHub.
 * [Bootstrap Modal](https://getbootstrap.com/docs/4.5/components/modal/) for contact form
 * [Bootstrap Forms](https://getbootstrap.com/docs/4.5/components/forms/) for registration form and form on modal
 
+**Note:**
+**These are credited on all the html files*  
+
 **`CSS3`**
 * [Stackoverflow](https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-bootstrap-4) to remove border colour of hamburger menu
  * [Stackoverflow](https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color) to change the colour of hamburger menu
  * [Stackoverflow](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel) to change the colour of carousel arrows
 
+ **Note:**
+**These are credited on the css file*  
+
 ### Contents
 
-* All contents were written by me
+* All the contents were written by me
 
 ### Media
 
