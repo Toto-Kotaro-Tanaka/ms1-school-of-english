@@ -322,9 +322,8 @@ footer a:hover {
   color: #065446;
 }
 
-/* -------------------- Media Query: Tablet Size (768px) -------------------- */
+/* -------------------- Media Query: Tablet Size (48 rem / 768px) -------------------- */
 @media only screen and (min-width: 48rem) {
-
   /* ---------- All: Header */
   #contact-us-header {
     font-size: 1.1rem;
@@ -453,11 +452,10 @@ footer a:hover {
 
   #register h4 {
     font-size: 1.4rem;
-  } 
-  
+  }   
 }
 
-/* -------------------- Media Query: Desktop Size (992px) -------------------- */
+/* -------------------- Media Query: Desktop Size (62rem / 992px) -------------------- */
 @media only screen and (min-width: 62rem) {
 /* ---------- All: Header */
   .navbar-brand {
@@ -520,10 +518,9 @@ footer a:hover {
   .section-article-accommodation ul {
     min-height: 5rem;
   }
-
 }
 
-/* -------------------- Media Query: Extra Large (1488px) -------------------- */
+/* -------------------- Media Query: Extra Large (93rem / 1488px) -------------------- */
 @media only screen and (min-width: 93rem) {
   body {
     border: 1px solid #065446;
@@ -532,5 +529,4 @@ footer a:hover {
   .section-extra-large {
     margin: 0;
   }
-
 }
