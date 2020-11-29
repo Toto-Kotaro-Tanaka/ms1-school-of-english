@@ -23,15 +23,15 @@ The main aims for this website are;
 
 Below tables show what should be included on the website to make the website valuable to the users. I would like to implement all of them on the website, however `Different Languages` and `Quotation Calculator` are not implemented due to lack of my current skills.
 
-| Opportunity                      | Importance | Viability / Feasibility |
-| :------------------------------- | :--------: | :---------------------: |
-| Course and Accommodation Details |     5      |            5            |
-| PDF Price List                   |     5      |            5            |
-| Booking Form                     |     5      |            4            |
-| Gallery                          |     4      |            4            |
-| Feedback                         |     4      |            4            |
-| Different Languages (X)          |     3      |            2            |
-| Quotation Calculator (X)         |     4      |            1            |
+| Opportunity                       | Importance | Viability / Feasibility |
+| :-------------------------------- | :--------: | :---------------------: |
+| Courses and Accommodation Details |     5      |            5            |
+| PDF Price List                    |     5      |            5            |
+| Booking Form                      |     5      |            4            |
+| Gallery                           |     4      |            4            |
+| Feedback                          |     4      |            4            |
+| Different Languages (X)           |     3      |            2            |
+| Quotation Calculator (X)          |     4      |            1            |
 
 ### Scope Plane
 Features to be included on this project are;
@@ -44,9 +44,9 @@ Features to be included on this project are;
 ### Structure Plane
 The website consists of 4 pages (Home, Courses, Accommodation, Register) plus price list as a separate link. Everything is laid out logically so that users can easily predict and learn about the website.
 
-**`Home page`**
+**`Home`**
 There is a hero image with school's catch phrase **"Go west... to learn English, make friends and have fun!"**.
-There are brief courses and accommodation descriptions and feedback underneath hero image.
+There are brief courses, accommodation descriptions and feedback underneath hero image.
 
 **`Courses`**
 Outlining the details of each course with a link to the price list. There are image galleries of the courses. Same layout as Accommodation.
@@ -62,7 +62,7 @@ All pages are designed with the same header and footer so that users can get fam
 ~~Green~~ Off white* is used for header and green is used for footer, white for body and orange for buttons.
 
 **Note:**
-**When I started coding, I felt Dark Green (#065446), that I was going to use initially on the header, was too strong, therefore I used off white (#fafafa) as background colour of header with font colour of Dark Green (#065446). I also decided to add contact section on top of the page so Dark Green is used for this.*  
+**When I started coding, I felt Dark Green (#065446), that I was going to use initially on the header, was too strong and didn't match with the hero image well, therefore I used off white (#fafafa) as background colour of header with font colour of Dark Green (#065446). I also decided to add contact section on top of the page so Dark Green is used for this.*  
 
 ### Skeleton Plane
 Mobile first design and there are wireframes of Home, Courses, Accommodation and Register for mobile, tablet and desktop sizes.
@@ -128,22 +128,22 @@ The purpose of this was to fix any errors before the second meeting with my ment
 **[W3C Markup Validation Service](https://validator.w3.org/)** was used to check any errors on html files.
 
 <ins>[Three errors found on index.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-w3c-index-html.jpg)</ins>
-1. **"Stray end tag *i*":** There were two closing tabs of *i* for Font Awesome icon. Fixed the errors by removing one of the closing tags
+1. **"Stray end tag *i*":** There were two closing tags of *i* for Font Awesome icon. Fixed the error by removing one of them
 2. Same as above in the different line
-3. **"*aria-describedby* attribute doesn't point to an element in the same document":** Fixed the errors by putting the id in the same element
+3. **"*aria-describedby* attribute doesn't point to an element in the same document":** Fixed the error by putting the id in the same element
 
 **Note:**
 *These errors were on header and modal form that are being used on all the pages so I fixed these on all the pages before testing other pages*
 
 <ins>[One warning found on courses.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-w3c-courses-html.jpg)</ins>
-1. **"section lacks heading":** I used *section* for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn't sure if I needed to use other semantic element or *div* for this, I asked the question in Slack community and I was told ["this is a warning and it's usually ok"](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-warning.png) so decided to leave it
+1. **"section lacks heading":** I used *section tag* for image gallery on courses.html without any heading and that was the reason of the warning. As I wasn't sure if I needed to use other semantic tag or *div tag* for this, I asked the question in Slack community and I was told ["this is a warning and it's usually ok"](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-warning.png) so decided to leave it
 
 <ins>[One warning found on accommodation.html](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-w3c-accommodation-html.jpg)</ins>
 1. Same as warning on courses.html
 
 <ins>[Seven errors and One warning on register.html (error 1 - 5)](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-w3c-register-html-1-5.jpg)</ins> / 
 <ins>[(error and warning 6 - 8)](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-w3c-register-html-6-8.jpg)
-1. **"Stray end tag *span*":** There was end tag of *span* on home of navbar. Fixed this by putting on register of navbar
+1. **"Stray end tag *span*":** There was end tag of *span* on home of navbar, that shouldn't have been there. Fixed this by putting it on register of navbar
 2. **"End tag a violates nesting rules":**  Fixed by putting *span* in this element
 3. **"The first child *option* element of a *select* element with a *required* attribute, and without a *multiple* attribute, and without a *size* attribute whose value is greater than *1*, must have either an empty *value* attribute, or must have no text content. Consider either adding a placeholder option label, or adding a *size* attribute with a value equal to the number of *option* elements":** Fixed by adding ~~size="13" on *select* tag~~. Errors from *4 - 6* were also same errors.
 4. Same as 3 in different field
@@ -161,9 +161,9 @@ The purpose of this was to fix any errors before the second meeting with my ment
 **[Lighthouse](https://developers.google.com/web/tools/lighthouse)** was used to check common issues that affect on my site performance, accessibility and user experience. Issues anything below 90 were addressed.
 
 <ins>[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-lighthouse-mobile-index.jpg)</ins>
-* **Performance 73:** I thought I could fix this by reducing the size of images but it didn't so need to keep this on hold as there are some other issues that I didn't have time to look at for the moment 
+* **Performance 73:** I thought I could fix this by reducing the size of images but I couldn't, so I needed to keep this on hold as well as there were some other issues that I didn't have time to look at 
 * **Accessibility 95:** OK
-* **Best Practices 86:** Fixed by adding rel="noopener" on a tag which has _blank. Also, removed one of JavaScript that I copied from Font Awesome CDN that didn't need to be on index.html
+* **Best Practices 86:** Fixed by adding *rel="noopener"* on tags which has *_blank*. Also, removed one of JavaScript link that I copied from Font Awesome CDN that didn't need to be on index.html
 * **SEO 92:** OK
 
 **Note:**
@@ -191,7 +191,7 @@ The purpose of this was to fix any errors before the second meeting with my ment
 *For both mobile and desktop versions of courses.html, I knew that there were some same issues as index.html (such as the size of images, rel="noopener", JavaScript of Font Awesome) so I fixed these first before the test*
 
 <ins>[accommodation.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/pre-test-lighthouse-mobile-accommodation.jpg)</ins>
-* **Performance 60:** It seemed **Performance** on Lighthouse changes every time. (It may depend on the speed of broadband?) Fixed the issue by reducing the size of images, however this gave an issue for the performance on desktop size as I got a warning saying low resolution image was being used for the first photo so I had to adjust the size of this photo and test it.
+* **Performance 60:** It seemed **Performance** on Lighthouse changes every time. (It may depend on the speed of broadband?) Fixed the issue by reducing the size of images, however this gave an issue for **Best Practice** on desktop size as I got a warning saying low resolution image was being used for the first photo so I had to adjust the size of this photo and test it.
 * **Accessibility 95:** OK
 * **Best Practices 100:** OK 
 * **SEO 92:** OK
@@ -223,40 +223,40 @@ The purpose of this was to make sure that my website was properly functioning be
 #### --- Code Validation ---
 * **[W3C Markup Validation Service](https://validator.w3.org/)** was used to check any errors on html files. I confirm that there were no errors as some issues were fixed at Pre-Testing point. There was a warning on courses.html and accommodation.html but it was OK as explained on the Pre-Testing section
 
-* **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** was used to check any errors on css file. I confirm that there were no errors which were same as Pre-Testing. However, there were **[8 warnings appeared](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-w3c-css.png)**. **Warning (8)** was just [information that it's not going to validate the imported style sheet](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error). The rest of warnings were related to webKit which is [a HTML/CSS web browser rendering engine for Safari/Chrome](https://stackoverflow.com/questions/3468154/what-is-webkit-and-how-is-it-related-to-css) and they were added on my CSS after putting it in Autoprefixer so these warnings could be ignored
+* **[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)** was used to check any errors on css file. I confirm that there were no errors which were same as Pre-Testing. However, there were **[8 warnings appeared](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-w3c-css.png)**. **Warning (line 8)** was just [information that it's not going to validate the imported style sheet](https://stackoverflow.com/questions/25946111/importing-css-is-ending-up-with-an-error). The rest of warnings were related to webKit which is [a HTML/CSS web browser rendering engine for Safari/Chrome](https://stackoverflow.com/questions/3468154/what-is-webkit-and-how-is-it-related-to-css) and they were added on my CSS after putting it in Autoprefixer so these warnings could be ignored
 
 #### --- Performance, Accessibility, User Experience ---
 * **[Lighthouse](https://developers.google.com/web/tools/lighthouse)** was used to check common issues that affect on my site performance, accessibility and user experience. Everything was **[90+ scores](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-lighthouse.png)** except **[index.html - Mobile](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-index-mobile-errors.png)** and **[accommodation.html - Desktop](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-accommodation-desktop-error.png)**.</br>
 My mentor and I looked at the issues of **index.html - Mobile** but we weren't able to figure out how to solve the issues. According to the report, it mentioned about links of bootstrap and CSS, that suggested that I wasn't using them, but I actually was. I have exactly same layout on other html files and not sure why it caused issues on only **index.html - Mobile** so I had to leave it.</br>
-For the other issue that **The Best Practice** for **accommodation.html - Desktop**, this was caused by the size of main image being low resolution. If I increased the size of the image, it would raise issues on mobile size, that images would be too big so I decided to leave this as it is
+For the other issue that **Best Practice** for **accommodation.html - Desktop**, this was caused by the size of main image being low resolution. If I increased the size of the image, it would raise issues on mobile size, that images would be too big so I decided to leave this as it is
 
 #### --- Web Browsers ---
-* Tested in major web browsers such as **Google Chrome**, **Safari**, **Firefox**, **Microsoft Edge**, **Opera** and the website worked both visually and functionally, except that **[date picker](https://www.drupal.org/project/webform/issues/3027747)** didn't show on **Safari** as it is not supported. I also tested with **Internet Explorer 11**. Home, Courses and Accommodation pages were fine however Register page didn't show properly. I looked up the solution but learned from a recent post in [Slack community](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-ie11.png) that I wouldn't need to worry about it as long as it works on Microsoft Edge so decided to take no action about it
+* Tested in major web browsers such as **Google Chrome**, **Safari**, **Firefox**, **Microsoft Edge**, **Opera** and the website worked both visually and functionally, except that **date picker** didn't show on **Safari** as [it is not supported](https://www.drupal.org/project/webform/issues/3027747). I also tested with **Internet Explorer 11**. Home, Courses and Accommodation pages were fine however Register page didn't show properly. I looked up the solution but learned from a recent post in [Slack community](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-ie11.png) that I wouldn't need to worry about it as long as it works on Microsoft Edge so decided to take no action about it
 
 #### --- Responsiveness --- 
 * I used **Google Chrome Dev Tools** to check the responsiveness of my website. I tested with mobile, tablet and desktop sizes and all worked. It also responded on each breakpoint that I set up on Media Query ([Tablet: 48rem / 768px](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-tablet.png), [Desktop: 62rem / 992px](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-desktop.png) and [Extra Large: 93rem / 1488px](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-extra-large.png)) and no visual or functional errors found  
 
 ## Project Barriers & Solutions
 I faced some difficulties and issues before starting the project. During the project, I didn't have many difficulties or issues but spent a lot of time on something I wasn't used to doing. Below are the list of them. 
-* **Starting the project:** As I had never created a proper website by myself, I wasn't sure how and where to start, although I took the lessons to prepare for this. What I did to solve this was to watch two session videos ([MS1 Planning Session](https://www.youtube.com/watch?v=sH0m9N875SU&feature=youtu.be) by Jim Lynx) & ([README Video](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be) by Anna Greaves) repeatedly until I understood the process, got an image of it and got ready for it
-* **Customising hamburger menu:** I used quite basic HTML and CSS so I didn't have many coding issues, however customising hamburger menu, that I had thought it was straight forward enough, wasn't easy to do so I had to look up solutions on google 
+* **Starting the project:** As I had never created a website with HTML and CSS properly by myself, I wasn't sure how and where to start, although I took the lessons to prepare for this. What I did to solve this was to watch two session videos ([MS1 Planning Session](https://www.youtube.com/watch?v=sH0m9N875SU&feature=youtu.be) by Jim Lynx) & ([README Video](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be) by Anna Greaves) repeatedly until I understood the process, got an image of it and got ready for it
+* **Customising hamburger menu:** I used quite basic HTML and CSS so I didn't have many coding issues, however customising hamburger menu, that I had thought it was straight forward enough, wasn't easy to do, so I had to look up solutions on google 
 * **List on form:**
 I wanted to add more nationalities and languages on the list on registration form. The only option I could think of was to manually add them on HTML. I was looking for better option / solution but couldn't find anything other than a list of template which includes all the countries. As this website is my project in the institute, I decided to keep nationalities and languages as they were instead of having so many of them on html file
-* **Date picker:** I wanted to style date picker on the registration form in a better format, however it seems JavaScript is required for this so decided to leave it for the moment
+* **Date picker:** I wanted to style date picker on the registration form in a better format, however it seems JavaScript is required for this, so decided to leave it for the moment
 * **Bootstrap default margin and padding:** When I set up max width of 93rem and trying to put borders around the website, courses and accommodation sections were expanded more than 100% which I think it was caused by Bootstrap's default setting (margin) so I used Chrome Dev Tools and Toggle Pesticide to see where the issues were and fixed them by putting margin 0 on row class
 * **New features:** There were some new features that I had never used. For example, README was one of them and it took sometime for me to get used to write in markdown. I learned it by looking up on google as well as by writing as much as possible
 
 ## Version Control
 ### Git
-Git was used to commit the changes. Whenever I completed a section or even a group of work, I committed them in order to make sure that the history of the records were properly logged in, as this is an essential practice for developers.
+[Git](https://git-scm.com/) was used to commit the changes. Whenever I completed a section or even a group of work, I committed them in order to make sure that the history of the records were properly logged in, as this is an essential practice for developers.
 ### GitHub
-GitHub was used to store all the folders and files of my project.
+[GitHub](https://github.com/) was used to store all the folders and files of my project.
 
 ## Deployment
-To deploy the website, I followed the below steps in GitHub.
+To deploy the website, I followed the below steps in [GitHub](https://github.com/).
 1. Go to **"Settings"** on the repository
 2. On **"Source"** of **"GitHub Pages"**, select **"main"** for Branch and click save
-3. The link is published and confirm above **"Source"**.</br> *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** + /"* </br>
+3. The link is published and confirmed above **"Source"**.</br> *URL is "https:// + **`your GitHub username`** + .github.io/ + **`your repository name`** + /"* </br>
 (e.g. https://toto-kotaro-tanaka.github.io/ms1-school-of-english/)</br></br>
 ![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy1.png)</br></br></br>
 ![image](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/readme/github-deploy2.png)
@@ -286,7 +286,7 @@ To deploy the website, I followed the below steps in GitHub.
 
 ### Media
 
-**`Main Logo`**
+**`Logo`**
 * Created by me using [Wix Logo maker](https://www.wix.com/logo/maker)
 
 **`Hero Image`**
