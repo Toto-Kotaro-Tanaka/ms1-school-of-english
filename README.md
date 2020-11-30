@@ -18,7 +18,7 @@ As users are non-native English speakers, **keeping the website simple** is esse
 
 The main aims for this website are;
 
-* To provide users enough information about the school as outlined on the user's story, **Who's this website for?** section. To achieve this, there are basic courses and accommodation details on home page and more details are available on courses and accommodation pages, that can be accessed on home page easily, by selecting the option on the menu or clicking **More Details** button. The price list, that users usually want to see, is available from the menu as well as **Price List** button on courses and accommodation sections. School address and telephone number are on the footer as expected with a link of google maps
+* To provide users enough information about the school as outlined on the user's story, **Who's this website for?** section. To achieve this, there are basic courses and accommodation details on **Home** page and more details are available on **Courses** and **Accommodation** pages, that can be accessed on **Home** page easily, by selecting the option on the menu or clicking **More Details** button. The price list, that users usually want to see, is available from the menu as well as **Price List** button on **Courses** and **Accommodation** sections. School address and telephone number are on the footer as expected with a link of google maps
 * To provide users easy access to contact and booking process as outlined on the user's story, **Who's this website for?** section. To achieve this, there is a very simple **Contact Us Form** available on top and bottom of each page. There is a **Registration Form**, which is designed in a very user friendly format, on the menu so users can access these from anywhere on the website
 
 Below tables show what should be included on the website to make the website valuable to the users. I would like to implement all of them on the website, however `Different Languages` and `Quotation Calculator` are not implemented due to lack of my current skills.
@@ -237,7 +237,7 @@ For the other issue that **Best Practice** for **accommodation.html - Desktop**,
 * I used **Google Chrome Dev Tools** to check the responsiveness of my website. I tested with mobile, tablet and desktop sizes and all worked. It also responded on each breakpoint that I set up on Media Query ([Tablet: 48rem / 768px](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-tablet.png), [Desktop: 62rem / 992px](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-desktop.png) and [Extra Large: 93rem / 1488px](https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english/blob/main/assets/documents/testing/final-test-extra-large.png)) and no visual or functional errors found
 
 #### --- Functionality ---
-* This was carried out to make sure that the main aims of the website were met. I visited each page and tested by clicking on each link on the page to see if the link wasn't broken and was led where it was supposed to do. I also tested the forms by completing the details and I confirm that none of the links were broken and all the links and forms work fine
+* This was carried out to make sure that the main aims of the website were met. I visited each page and tested by clicking on each link on the page to see if the link wasn't broken and was led where it was supposed to. I also tested the forms by completing the details and I confirm that none of the links were broken and all the links and forms work fine
 
 ## Project Barriers & Solutions
 I faced some difficulties and issues before starting the project. During the project, I didn't have many difficulties or issues but spent a lot of time on something I wasn't used to doing. Below are the list of them. 
@@ -252,7 +252,7 @@ I wanted to add more nationalities and languages on the list on registration for
 ## Version Control
 ### Git & GitHub
 I used **[Git](https://git-scm.com/)** as a local repository and **[GitHub](https://github.com/)** as a remote repository. The process of version control was;
-1. I created a remote repository in GitHub by clicking **"New repository"** available on main page
+1. I created a remote repository in GitHub by clicking **"New repository"** on main page
 2. I created a folder called **ms1-school-of-english** on my computer
 3. I opened the folder with **[Visual Studio Code](https://code.visualstudio.com/)** 
 4. I created README.md file
@@ -262,13 +262,13 @@ I used **[Git](https://git-scm.com/)** as a local repository and **[GitHub](http
 * git add README.md
 * git commit -m "Initial commit"
 * git branch -M main
-* git remote add origin https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english-galway.git
+* git remote add origin https://github.com/Toto-Kotaro-Tanaka/ms1-school-of-english.git
 * git push -u origin main
 ````
-7. From the second commit, I repeated below process and I did this whenever I completed a section or even a group of work
+7. From the second commit, I used the below process and I did it whenever I completed a section or even a group of work in order to make sure to keep the history of my work logged
 
 ````
-* git add . / to put all new and updated work on the satage in git
+* git add . / to put all new and updated work on the stage in git
 * git commit -m "Example commit" / to commit the work on the stage
 * git push / to update the work in GitHub
 ````
